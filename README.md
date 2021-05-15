@@ -10,4 +10,5 @@ Solutions to Questions on LeetCode in Python
 | 21   | Merge Two Sorted Lists        | Iterative (compare and append to list), O(n) time, O(1) space. |
 | 94   | Binary Tree Inorder Traversal | Recursive/Iterative O(n) time, O(n) space                      |
 | 136  | Single Number                 | Counter (Hash) or Math, O(n) time, O(n) space. XOR O(1) space! |
+| 977  | Squares of a Sorted Array     | Two Pointers at either ends, O(n) time, O(n) space             |
 | 1512 | Number of Good Pairs          | Hash + Math n \* (n-1) / 2, O(n) time, O(n) space              |
