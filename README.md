@@ -12,6 +12,7 @@ Solutions to Questions on LeetCode in Python
 | 136  | Single Number                 | Counter (Hash) or Math, O(n) time, O(n) space. XOR O(1) space! |
 | 169  | Majority Element              | Boyer-Moore Voting Algorithm, O(n) time, O(1) space            |
 | 977  | Squares of a Sorted Array     | Two Pointers at either ends, O(n) time, O(n) space             |
+| 1025 | Divisor Game                  | Even wins, odd loses O(1). Bottom up DP O(n \* sqrt(n)) time   |
 | 1108 | Defanging an IP Address       | Use Python .replace('.', '[.]'), O(n\*m) time, O(n) space      |
 | 1351 | Count Negative Numbers in SM  | Negative Values form Staircase, O(n + m) time, O(n) space      |
 | 1512 | Number of Good Pairs          | Hash + Math n \* (n-1) / 2, O(n) time, O(n) space              |
