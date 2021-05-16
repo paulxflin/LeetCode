@@ -28,3 +28,4 @@ Categories:
 | 1108 | Defanging an IP Address       | Use Python .replace('.', '[.]'), O(n\*m) time, O(n) space      |
 | 1351 | Count Negative Numbers in SM  | Negative Values form Staircase, O(n + m) time, O(n) space      |
 | 1512 | Number of Good Pairs          | Hash + Math n \* (n-1) / 2, O(n) time, O(n) space              |
+| 1863 | Sum of All Subset XOR Totals  | Backtrack O(2^n) time, O(n) space. Bit O(n) time, O(1) space   |
