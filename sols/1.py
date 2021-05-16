@@ -1,5 +1,5 @@
 class Solution(object):
-    # Brute Force, time O(n^2), space O(1)
+    # Brute Force (Accepted), time O(n^2), space O(1)
     # def twoSum(self, nums, target):
     #     for i in range(len(nums)):
     #         for j in range(i+1, len(nums)):
@@ -11,7 +11,7 @@ class Solution(object):
     #     :rtype: List[int]
     #     """
 
-    # One pass Hash Table, time O(n), space O(n)
+    # One pass Hash Table (Solution), time O(n), space O(n)
     # def twoSum(self, nums, target):
     #     num_dict = {}
     #     for k, v in enumerate(nums):

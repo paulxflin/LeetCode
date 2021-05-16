@@ -2,6 +2,12 @@
 
 Solutions to Questions on LeetCode in Python
 
+Categories:
+
+1. Accepted: My accepted submissions for the problem
+2. Solution: LeetCode provided Solutions
+3. Top Voted: Solutions from discussion section
+
 ## Easy
 
 | #    | Title                         | Basic idea (One line)                                          |

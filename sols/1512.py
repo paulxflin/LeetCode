@@ -2,7 +2,7 @@ from collections import Counter
 
 
 class Solution(object):
-    # # Brute Force Solution, O(n^2) time, O(n) space
+    # # Brute Force Solution (Accepted), O(n^2) time, O(n) space
     # def numIdenticalPairs(self, nums):
     #     """
     #     :type nums: List[int]

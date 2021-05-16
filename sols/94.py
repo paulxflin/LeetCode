@@ -5,14 +5,14 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    # # Recursion, time O(n), space worst O(n), average O(log n)
+    # # Recursion (Accepted), time O(n), space worst O(n), average O(log n)
     # def add_children(self, r, node):
     #     if node.left is not None:
     #         self.add_children(r, node.left)
     #     r.append(node.val)
     #     if node.right is not None:
     #         self.add_children(r, node.right)
-    
+
     # def inorderTraversal(self, root):
     #     """
     #     :type root: TreeNode
@@ -23,7 +23,7 @@ class Solution(object):
     #         self.add_children(r, root)
     #     return r
 
-    # # Iterative, O(n) time, O(n) space
+    # # Iterative (Accepted), O(n) time, O(n) space
     # def inorderTraversal(self, root):
     #     """
     #     :type root: TreeNode
@@ -51,7 +51,7 @@ class Solution(object):
     #                     cur_node = stack[-1]
     #                 else:
     #                     return r
-            
+
     #     return r
 
     # # Iterative (Solution), O(n) time, O(n) space
@@ -87,10 +87,3 @@ class Solution(object):
                 root = tmpNode.right
 
         return ans
-
-    
-        
-    
-        
-    
-        
