@@ -25,6 +25,7 @@ Categories:
 | 997  | Find the Town Judge           | Trusted - Trusts == n-1 for Judge, O(n + t) time, O(n) space   |
 | 1021 | Remove Outermost Parentheses  | Open = Closed, O(n) time and space                             |
 | 1025 | Divisor Game                  | Even wins, odd loses O(1). Bottom up DP O(n \* sqrt(n)) time   |
+| 1046 | Last Stone Weight             | Heap T: O(nlogn), S: O(n). bisect.insort T: O(n^2), S: O(1)    |
 | 1108 | Defanging an IP Address       | Use Python .replace('.', '[.]'), O(n\*m) time, O(n) space      |
 | 1351 | Count Negative Numbers in SM  | Negative Values form Staircase, O(n + m) time, O(n) space      |
 | 1512 | Number of Good Pairs          | Hash + Math n \* (n-1) / 2, O(n) time, O(n) space              |
