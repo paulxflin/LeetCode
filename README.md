@@ -19,6 +19,7 @@ Categories:
 | 136  | Single Number                 | Counter (Hash) or Math, O(n) time, O(n) space. XOR O(1) space! |
 | 169  | Majority Element              | Boyer-Moore Voting Algorithm, O(n) time, O(1) space            |
 | 559  | Maximum Depth of N-ary Tree   | DFS, O(n) time, O(n) space. BFS, O(n) time, O(n) space         |
+| 933  | Number of Recent Calls        | Queue, O(1) time and space due to problem constraints          |
 | 938  | Range Sum of BST              | DFS if parent strictly in range, O(n) time, O(h) space         |
 | 977  | Squares of a Sorted Array     | Two Pointers at either ends, O(n) time, O(n) space             |
 | 997  | Find the Town Judge           | Trusted - Trusts == n-1 for Judge, O(n + t) time, O(n) space   |
