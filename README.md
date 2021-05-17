@@ -20,6 +20,7 @@ Categories:
 | 169  | Majority Element              | Boyer-Moore Voting Algorithm, O(n) time, O(1) space            |
 | 559  | Maximum Depth of N-ary Tree   | DFS, O(n) time, O(n) space. BFS, O(n) time, O(n) space         |
 | 720  | Longest Word in Dictionary    | Trie + DFS, T&S: O(n \* s). Sort + Set, T: O(n log n), S: O(n) |
+| 897  | Increasing Order Search Tree  | DFS + Dummy, T&S: O(n). DFS + Relinking, T: O(n), S: O(h)      |
 | 933  | Number of Recent Calls        | Queue, O(1) time and space due to problem constraints          |
 | 938  | Range Sum of BST              | DFS if parent strictly in range, O(n) time, O(h) space         |
 | 977  | Squares of a Sorted Array     | Two Pointers at either ends, O(n) time, O(n) space             |
