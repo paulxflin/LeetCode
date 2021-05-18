@@ -31,6 +31,7 @@ Categories:
 | 1108 | Defanging an IP Address       | Use Python .replace('.', '[.]'), O(n\*m) time, O(n) space      |
 | 1342 | Num Steps to Reduce Num to 0  | Binary Representation, O(bits) space and time                  |
 | 1351 | Count Negative Numbers in SM  | Negative Values form Staircase, O(n + m) time, O(n) space      |
+| 1480 | Running Sum of 1d Array       | Use Prior Element, sum in place, T: O(n), S: O(1)              |
 | 1512 | Number of Good Pairs          | Hash + Math n \* (n-1) / 2, O(n) time, O(n) space              |
 | 1528 | Shuffle String                | Create list, insert s with indicies, O(n) time and space       |
 | 1863 | Sum of All Subset XOR Totals  | Backtrack O(2^n) time, O(n) space. Bit O(n) time, O(1) space   |
