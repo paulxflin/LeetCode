@@ -26,6 +26,7 @@ Categories:
 | 933  | Number of Recent Calls         | Queue, O(1) time and space due to problem constraints          |
 | 938  | Range Sum of BST               | DFS if parent strictly in range, O(n) time, O(h) space         |
 | 977  | Squares of a Sorted Array      | Two Pointers at either ends, O(n) time, O(n) space             |
+| 993  | Cousins in Binary Tree         | Tuple with BFS, T&S: O(n). Tuple with DFS, T: O(n), S: O(h)    |
 | 997  | Find the Town Judge            | Trusted - Trusts == n-1 for Judge, O(n + t) time, O(n) space   |
 | 1021 | Remove Outermost Parentheses   | Open = Closed, O(n) time and space                             |
 | 1025 | Divisor Game                   | Even wins, odd loses O(1). Bottom up DP O(n \* sqrt(n)) time   |
