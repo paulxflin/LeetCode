@@ -15,6 +15,7 @@ Categories:
 | ---- | ------------------------------ | -------------------------------------------------------------- |
 | 1    | Two Sum                        | Dict (num, index), O(n) time, O(n) space                       |
 | 21   | Merge Two Sorted Lists         | Iterative (compare and append to list), O(n) time, O(1) space. |
+| 53   | Maximum Subarray               | DP/Kandane's T: O(n), S: O(1). D&C T: O(n), S: O(log n)        |
 | 94   | Binary Tree Inorder Traversal  | Recursive/Iterative O(n) time, O(n) space                      |
 | 136  | Single Number                  | Counter (Hash) or Math, O(n) time, O(n) space. XOR O(1) space! |
 | 169  | Majority Element               | Boyer-Moore Voting Algorithm, O(n) time, O(1) space            |
