@@ -21,6 +21,7 @@ Categories:
 | 121  | Best Time to Buy & Sell Stock  | Track min and profit / Kandane's Algorithm, T: O(n), S: O(1)   |
 | 136  | Single Number                  | Counter (Hash) or Math, O(n) time, O(n) space. XOR O(1) space! |
 | 169  | Majority Element               | Boyer-Moore Voting Algorithm, O(n) time, O(1) space            |
+| 401  | Binary Watch                   | Collect One Bits List Comprehension / Backtracking, T&S: O(1)  |
 | 559  | Maximum Depth of N-ary Tree    | DFS, O(n) time, O(n) space. BFS, O(n) time, O(n) space         |
 | 720  | Longest Word in Dictionary     | Trie + DFS, T&S: O(n \* s). Sort + Set, T: O(n log n), S: O(n) |
 | 852  | Peak Index in a Mountain Array | Binary Seach, Golden-Section Search, T: O(log n), S: O(1)      |
