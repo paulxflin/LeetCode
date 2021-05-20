@@ -44,3 +44,9 @@ Categories:
 | 1528 | Shuffle String                 | Create list, insert s with indicies, O(n) time and space       |
 | 1688 | Count of Matches in Tournament | n-1 matches, T&S: O(1). Even/odd if/else: T: O(log n), S: O(1) |
 | 1863 | Sum of All Subset XOR Totals   | Backtrack O(2^n) time, O(n) space. Bit O(n) time, O(1) space   |
+
+## Medium
+
+| #    | Title                                 | Basic idea (One line)                          |
+| ---- | ------------------------------------- | ---------------------------------------------- |
+| 1727 | Largest Submatrix With Rearrangements | Sum column stacks, T: O(n \* m log m), S: O(1) |
