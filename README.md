@@ -47,6 +47,7 @@ Categories:
 
 ## Medium
 
-| #    | Title                                 | Basic idea (One line)                          |
-| ---- | ------------------------------------- | ---------------------------------------------- |
-| 1727 | Largest Submatrix With Rearrangements | Sum column stacks, T: O(n \* m log m), S: O(1) |
+| #    | Title                                 | Basic idea (One line)                              |
+| ---- | ------------------------------------- | -------------------------------------------------- |
+| 676  | Implement Magic Dictionary            | Diff = 1 for List/dict, Candidates, T&S: O(n \* s) |
+| 1727 | Largest Submatrix With Rearrangements | Sum column stacks, T: O(n \* m log m), S: O(1)     |
