@@ -43,6 +43,7 @@ Categories:
 | 1480 | Running Sum of 1d Array        | Use Prior Element, sum in place, T: O(n), S: O(1)              |
 | 1512 | Number of Good Pairs           | Hash + Math n \* (n-1) / 2, O(n) time, O(n) space              |
 | 1528 | Shuffle String                 | Create list, insert s with indicies, O(n) time and space       |
+| 1603 | Design Parking System          | Array, Instance Var, or hashmap for spaces, T&S: O(1)          |
 | 1688 | Count of Matches in Tournament | n-1 matches, T&S: O(1). Even/odd if/else: T: O(log n), S: O(1) |
 | 1863 | Sum of All Subset XOR Totals   | Backtrack O(2^n) time, O(n) space. Bit O(n) time, O(1) space   |
 
