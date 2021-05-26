@@ -54,6 +54,7 @@ Categories:
 
 | #    | Title                                 | Basic idea (One line)                              |
 | ---- | ------------------------------------- | -------------------------------------------------- |
+| 33   | Search in Rotated Sorted Array        | Modified Binary Search, T: O(log n), S: O(1)       |
 | 131  | Palindrome Partitioning               | DFS palindrome backtrack, T: O(n \* 2^n), S: O(n)  |
 | 147  | Insertion Sort List                   | Dummy + Pred + Disorder, T: O(n^2), S: O(1)        |
 | 676  | Implement Magic Dictionary            | Diff = 1 for List/dict, Candidates, T&S: O(n \* s) |
