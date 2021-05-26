@@ -5,7 +5,7 @@
 #         self.next = next
 class Solution:
 
-    # # Very slow deletion and insertion (Accepted), O(n^2) time, O(1) space
+    # # Pure Insertion Sort (Accepted), O(n^2) time, O(1) space
     # def find_and_insert(self, cur, ind, head):
     #     prev = None
     #     node = head
@@ -18,7 +18,7 @@ class Solution:
     #             cur.next = node
     #             prev.next = cur
     #             return head
-    #         if node and node.next and node.val <= cur.val < node.next.val:
+    #         elif node.next and cur.val < node.next.val:
     #             cur.next = node.next
     #             node.next = cur
     #             return head
@@ -38,6 +38,46 @@ class Solution:
     #             prev.next = cur.next
     #         head = self.find_and_insert(cur, ind, head)
     #         prev = cur if prev.next == cur else prev
+    #         cur = prev.next
+    #         ind += 1
+    #     return head
+
+    # # Lazy (disorders) Insertion Sort (Accepted), O(n^2) time, O(1) space (10x improvement from above)
+    # def find_and_insert(self, cur, ind, head):
+    #     prev = None
+    #     node = head
+    #     if node.val > cur.val:
+    #         cur.next = node
+    #         head = cur
+    #         return head
+    #     for i in range(ind):
+    #         if not node:
+    #             cur.next = node
+    #             prev.next = cur
+    #             return head
+    #         elif node.next and cur.val < node.next.val:
+    #             cur.next = node.next
+    #             node.next = cur
+    #             return head
+    #         prev = node
+    #         node = node.next
+    #     # No suitable position found
+    #     cur.next = node
+    #     prev.next = cur
+    #     return head
+
+    # def insertionSortList(self, head: ListNode) -> ListNode:
+    #     prev = head
+    #     cur = head.next
+    #     ind = 1
+    #     while cur is not None:
+    #         if prev.val > cur.val:
+    #             if prev:
+    #                 prev.next = cur.next
+    #             head = self.find_and_insert(cur, ind, head)
+    #             prev = cur if prev.next == cur else prev
+    #         else:
+    #             prev = cur
     #         cur = prev.next
     #         ind += 1
     #     return head
