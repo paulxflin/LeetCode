@@ -59,4 +59,5 @@ Categories:
 | 131  | Palindrome Partitioning                | DFS palindrome backtrack, T: O(n \* 2^n), S: O(n)  |
 | 147  | Insertion Sort List                    | Dummy + Pred + Disorder, T: O(n^2), S: O(1)        |
 | 676  | Implement Magic Dictionary             | Diff = 1 for List/dict, Candidates, T&S: O(n \* s) |
+| 955  | Delete Columns to Make Sorted II       | Track unsorted using set. T: O(n\*m), S: O(n)      |
 | 1727 | Largest Submatrix With Rearrangements  | Sum column stacks, T: O(n \* m log m), S: O(1)     |
