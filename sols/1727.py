@@ -22,7 +22,7 @@ class Solution:
 
         return res
 
-    # # Sum continuous stacks of columns (revisit), O(n * m log m) time, O(m) space
+    # # Sum continuous stacks of columns (Revisited), O(n * m log m) time, O(m) space
     # def largestSubmatrix(self, matrix: List[List[int]]) -> int:
     #     n, m = len(matrix), len(matrix[0])
     #     res = sum(matrix[0])
@@ -38,7 +38,7 @@ class Solution:
 
     #     return res
 
-    # # Sum continuous stacks of columns (revisit), O(n * m log m) time, O(1) space
+    # # Sum continuous stacks of columns (Revisited), O(n * m log m) time, O(1) space
     # def largestSubmatrix(self, matrix: List[List[int]]) -> int:
     #     n, m = len(matrix), len(matrix[0])
     #     res = sum(matrix[0])

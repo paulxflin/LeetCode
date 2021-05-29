@@ -32,6 +32,23 @@ class Solution:
     #     res = dfs(root, [], [])
     #     return res
 
+    # # Backtracking (Revisited), O(n * 2^n) time, O(n) space
+    # def is_palin(self, s):
+    #     return s == s[::-1]
+
+    # def dfs(self, s, palins):
+    #     if not s:
+    #         self.res.append(palins)
+    #         return
+    #     for i in range(1, len(s) + 1):
+    #         if self.is_palin(s[:i]):
+    #             self.dfs(s[i:], palins + [s[:i]])
+
+    # def partition(self, s: str) -> List[List[str]]:
+    #     self.res = []
+    #     self.dfs(s, [])
+    #     return self.res
+
     # Backtracking (Top Voted), O(n * 2^n) time, O(n) space
     def partition(self, s):
         res = []

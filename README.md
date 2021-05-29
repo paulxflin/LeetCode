@@ -5,9 +5,10 @@ Solutions to Questions on LeetCode in Python
 Categories:
 
 1. Accepted: My accepted submissions for the problem
-2. Solution: LeetCode provided Solutions
-3. Top Voted: Solutions from discussion section
-4. Sample: From faster time/space complexity samples
+2. Revisited: Submissions from revisiting questions
+3. Solution: LeetCode provided Solutions
+4. Top Voted: Solutions from discussion section
+5. Sample: From faster time/space complexity samples
 
 ## Easy
 
