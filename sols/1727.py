@@ -22,6 +22,39 @@ class Solution:
 
         return res
 
+    # # Sum continuous stacks of columns (revisit), O(n * m log m) time, O(m) space
+    # def largestSubmatrix(self, matrix: List[List[int]]) -> int:
+    #     n, m = len(matrix), len(matrix[0])
+    #     res = sum(matrix[0])
+    #     for i in range(1, n):
+    #         for j in range(m):
+    #             if matrix[i][j] == 1:
+    #                 matrix[i][j] = matrix[i-1][j] + 1
+
+    #         row = sorted(matrix[i], reverse=True)
+    #         for j in range(m):
+    #             max_area = row[j] * (j + 1)
+    #             res = max_area if max_area > res else res
+
+    #     return res
+
+    # # Sum continuous stacks of columns (revisit), O(n * m log m) time, O(1) space
+    # def largestSubmatrix(self, matrix: List[List[int]]) -> int:
+    #     n, m = len(matrix), len(matrix[0])
+    #     res = sum(matrix[0])
+    #     for i in range(1, n):
+    #         for j in range(m):
+    #             if matrix[i][j] == 1:
+    #                 matrix[i][j] = matrix[i-1][j] + 1
+
+    #     for i in range(1, n):
+    #         matrix[i].sort(reverse=True)
+    #         for j in range(m):
+    #             max_area = matrix[i][j] * (j + 1)
+    #             res = max_area if max_area > res else res
+
+    #     return res
+
     # # Sum continuous stacks of columns (Top Voted), O(n * m log m) time, O(m) space
     # def largestSubmatrix(self, matrix: List[List[int]]) -> int:
     #     ans = 0
