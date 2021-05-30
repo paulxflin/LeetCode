@@ -82,6 +82,29 @@ class Solution:
     #         ind += 1
     #     return head
 
+    # # Dummy + Predecessors + Disorders (Revisited), O(n^2) time, O(1) space
+    # def insertionSortList(self, head: ListNode) -> ListNode:
+    #     dummy = ListNode(0, head)
+    #     cur = head
+    #     while cur.next is not None:
+    #         if cur.val > cur.next.val:
+    #             to_insert = cur.next
+    #             cur.next = cur.next.next
+
+    #             # Find predecessor for insertion
+    #             pred = dummy
+    #             while pred.next.val < to_insert.val:
+    #                 pred = pred.next
+
+    #             # insert in pred
+    #             to_insert.next = pred.next
+    #             pred.next = to_insert
+
+    #         else:
+    #             cur = cur.next
+
+    #     return dummy.next
+
     # Dummy + Predecessor + Disorders (Top Voted), O(n^2) time, O(1) space
     def insertionSortList(self, head):
 
