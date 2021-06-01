@@ -2,10 +2,10 @@ class Solution:
     # # Track unsorted indexes using sets (Revisited), O(n*m) time, O(n) space
     # def minDeletionSize(self, strs: List[str]) -> int:
     #     n, m = len(strs), len(strs[0])
-    #     res = 0
     #     unsorted = set(range(n-1))
+    #     res = 0
     #     for j in range(m):
-    #         if any([strs[i][j] > strs[i+1][j] for i in unsorted]):
+    #         if any(strs[i][j] > strs[i+1][j] for i in unsorted):
     #             res += 1
     #         else:
     #             unsorted -= {i for i in unsorted if strs[i][j] < strs[i+1][j]}
