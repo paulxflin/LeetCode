@@ -61,6 +61,7 @@ Categories:
 | 92   | Reverse Linked List II                 | Iterative in place updates, T: O(n), S: O(1)       |
 | 131  | Palindrome Partitioning                | DFS palindrome backtrack, T: O(n \* 2^n), S: O(n)  |
 | 147  | Insertion Sort List                    | Dummy + Predecessor + Disorder, T: O(n^2), S: O(1) |
+| 464  | Can I Win                              | Top Down DP choices key, T: O(n \* 2^k), S: O(k!)  |
 | 676  | Implement Magic Dictionary             | Diff = 1 for List/dict, Candidates, T&S: O(n \* s) |
 | 955  | Delete Columns to Make Sorted II       | Track unsorted strs using set, T: O(n\*m), S: O(n) |
 | 1552 | Magnetic Force Between Two Balls       | Binary Search, T: O(n \* (log n + log m)), S: O(1) |
