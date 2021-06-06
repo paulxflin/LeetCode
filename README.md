@@ -24,6 +24,7 @@ Categories:
 | 141  | Linked List Cycle              | Tortoise and Hare, O(n) time, O(1) space                       |
 | 169  | Majority Element               | Boyer-Moore Voting Algorithm, O(n) time, O(1) space            |
 | 292  | Nim Game                       | Win if n % 4 != 0, O(n) time and space.                        |
+| 303  | Range Sum Query - Immutable    | Memorisation of Accumulations, T&S: O(n)                       |
 | 338  | Counting Bits                  | DP: ans[i] = ans[i >> 1] + (i & 1), T&S: O(n)                  |
 | 392  | Is Subsequence                 | Two pointers and/or iterator, T: O(t), S: O(1)                 |
 | 401  | Binary Watch                   | Collect One Bits List Comprehension / Backtracking, T&S: O(1)  |
