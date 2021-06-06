@@ -25,6 +25,7 @@ Categories:
 | 169  | Majority Element               | Boyer-Moore Voting Algorithm, O(n) time, O(1) space            |
 | 292  | Nim Game                       | Win if n % 4 != 0, O(n) time and space.                        |
 | 338  | Counting Bits                  | DP: ans[i] = ans[i >> 1] + (i & 1), T&S: O(n)                  |
+| 392  | Is Subsequence                 | Two pointers and/or iterator, T: O(t), S: O(1)                 |
 | 401  | Binary Watch                   | Collect One Bits List Comprehension / Backtracking, T&S: O(1)  |
 | 521  | Longest Uncommon Subsequence I | Same -> -1, o/w return longer string, T: (min(x, y)), S: O(1)  |
 | 559  | Maximum Depth of N-ary Tree    | DFS, O(n) time, O(n) space. BFS, O(n) time, O(n) space         |
