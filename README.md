@@ -17,6 +17,7 @@ Categories:
 | 1    | Two Sum                        | Dict (num, index), O(n) time, O(n) space                       |
 | 21   | Merge Two Sorted Lists         | Iterative (compare and append to list), O(n) time, O(1) space. |
 | 53   | Maximum Subarray               | DP/Kandane's T: O(n), S: O(1). D&C T: O(n), S: O(log n)        |
+| 70   | Climbing Stairs                | Optimised DP (Essentially Fibonacci), T: O(n), S: O(1)         |
 | 94   | Binary Tree Inorder Traversal  | Recursive/Iterative O(n) time, O(n) space                      |
 | 111  | Minimum Depth of Binary Tree   | BFS/DFS, BFS in most cases is better than DFS, T&S: O(n)       |
 | 121  | Best Time to Buy & Sell Stock  | Track min and profit / Kandane's Algorithm, T: O(n), S: O(1)   |
