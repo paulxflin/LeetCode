@@ -1,6 +1,9 @@
+import collections
+
+
 class Solution(object):
-    # BFS (Top Voted), Unknown Time and Space
-    def findCheapestPrice(self, n, flights, src, dst, K):
+    # BFS with adjacent and visited dicts (Top Voted), O(n^k) time, O(n^k + n^2) space
+    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
         if src == dst:
             return 0
         d, seen = collections.defaultdict(
