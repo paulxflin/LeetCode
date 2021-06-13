@@ -77,7 +77,7 @@ Categories:
 | 147  | Insertion Sort List                    | Dummy + Predecessor + Disorder, T: O(n^2), S: O(1) |
 | 464  | Can I Win                              | Top Down DP, choices as tuple key, T&S: O(2^n)     |
 | 676  | Implement Magic Dictionary             | Diff = 1 for List/dict, Candidates, T&S: O(n \* s) |
-| 787  | Cheapest Flights Within K Stops        | BFS with two dicts, T: O(n^k), S: O(n^k + n^2)     |
+| 787  | Cheapest Flights Within K Stops        | BFS with two dicts, T&S: O(n^k + n^2)              |
 | 955  | Delete Columns to Make Sorted II       | Track unsorted strs using set, T: O(n\*m), S: O(n) |
 | 1552 | Magnetic Force Between Two Balls       | Binary Search, T: O(n \* (log n + log m)), S: O(1) |
 | 1727 | Largest Submatrix With Rearrangements  | Sum column stacks, T: O(n \* m log m), S: O(1)     |

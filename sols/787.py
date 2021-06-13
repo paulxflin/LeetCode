@@ -1,9 +1,10 @@
 import collections
 from collections import defaultdict, deque
+import heapq
 
 
 class Solution(object):
-    # # BFS with adjacent and visited dicts (Top Voted), O(n^k) time, O(n^k + n^2) space
+    # # BFS with adjacent and visited dicts (Top Voted), O(n^k + n^2) time and space
     # def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
     #     if src == dst:
     #         return 0
@@ -27,7 +28,7 @@ class Solution(object):
 
     #     return seen[dst] if seen[dst] < float('inf') else -1
 
-    # BFS (Revisit), O(n^k) time, O(n^k + n^2) space
+    # BFS (Revisit), O(n^k + n^2) time and space
     def finCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
         direct_flights, seen = defaultdict(
             lambda: []), defaultdict(lambda: float("inf"))
@@ -49,3 +50,39 @@ class Solution(object):
                     q.append((b, k+1, price + p))
 
         return seen[dst] if seen[dst] < float("inf") else -1
+
+    # # Heap + Cycle Detection (Top Voted), O(n^k * log(n^k) + n^2) time, O(n^k + n^2) space
+    # def findCheapestPrice(self, n, flights, src, dst, K):
+    #     visited = {}
+    #     graph = collections.defaultdict(list)
+    #     for s, d, p in flights:
+    #         graph[s].append((d, p))
+    #     heap = [(0, 0, src)]
+    #     while heap:
+    #         dist, moves, node = heapq.heappop(heap)
+    #         if node == dst and K >= moves - 1:
+    #             return dist
+    #         if node not in visited or visited[node] > moves:
+    #             visited[node] = moves
+    #             for nei, weight in graph[node]:
+    #                 heapq.heappush(heap, (dist + weight, moves + 1, nei))
+    #     return -1
+
+    # # Heap + Cycle Detection (Revisit), O(n^k * log(n^k) + n^2) time, O(n^k + n^2) space
+    # def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
+    #     direct_flights, visited = defaultdict(list), {}
+    #     for a, b, p in flights:
+    #         direct_flights[a].append((b, p))
+
+    #     heap = [(0, 0, src)]
+
+    #     while heap:
+    #         cost, moves, city = heapq.heappop(heap)
+    #         if city == dst and moves-1 <= k:
+    #             return cost
+    #         if city not in visited or visited[city] > moves:
+    #             visited[city] = moves
+    #             for b, p in direct_flights[city]:
+    #                 heapq.heappush(heap, (cost+p, moves+1, b))
+
+    #     return -1
