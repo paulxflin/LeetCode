@@ -18,6 +18,7 @@ Categories:
 | 21   | Merge Two Sorted Lists         | Iterative (compare and append to list), O(n) time, O(1) space. |
 | 53   | Maximum Subarray               | DP/Kandane's T: O(n), S: O(1). D&C T: O(n), S: O(log n)        |
 | 70   | Climbing Stairs                | Optimised DP (Essentially Fibonacci), T: O(n), S: O(1)         |
+| 83   | Remove Dups from Sorted List   | Set cur.next to next elem, increment o/w, T: O(n), S: O(1)     |
 | 94   | Binary Tree Inorder Traversal  | Recursive/Iterative O(n) time, O(n) space                      |
 | 101  | Symmetric Tree                 | Recursive or Iterative + Stack/Queue, T&S: O(n)                |
 | 104  | Maximum Depth of Binary Tree   | Recursion with levels, incrementing in child call, T&S: O(n)   |
