@@ -27,6 +27,7 @@ Categories:
 | 121  | Best Time to Buy & Sell Stock  | Track min and profit / Kandane's Algorithm, T: O(n), S: O(1)   |
 | 136  | Single Number                  | Counter (Hash) or Math, O(n) time, O(n) space. XOR O(1) space! |
 | 141  | Linked List Cycle              | Tortoise and Hare, O(n) time, O(1) space                       |
+| 160  | Intersect of Two Linked Lists  | Two pointers two pass, O(n) time, O(1) space                   |
 | 169  | Majority Element               | Boyer-Moore Voting Algorithm, O(n) time, O(1) space            |
 | 206  | Reverse Linked List            | Iteratively update the node, T: O(n), S: O(1)                  |
 | 237  | Delete Node in a Linked List   | Set cur.val as next.val, cur.next = next.next, T&S: O(1)       |
