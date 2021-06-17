@@ -47,6 +47,7 @@ Categories:
 | 746  | Min Cost Climbing Stairs       | Bottom Up DP 3 Vars, T: O(n), S: O(1)                          |
 | 783  | Min Dist Between BST Nodes     | In Order Traversal with DFS and cache pred, T: O(n), S: O(h)   |
 | 852  | Peak Index in a Mountain Array | Binary Seach, Golden-Section Search, T: O(log n), S: O(1)      |
+| 872  | Leaf-Similar Trees             | DFS + List Compare, T&S: O(t1 + t2)                            |
 | 876  | Middle of the Linked List      | Two Pointers tortoise and hare, T: O(n), S: O(1)               |
 | 897  | Increasing Order Search Tree   | DFS + Dummy, T&S: O(n). DFS + Relinking, T: O(n), S: O(h)      |
 | 933  | Number of Recent Calls         | Queue, O(1) time and space due to problem constraints          |
