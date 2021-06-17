@@ -22,6 +22,7 @@ Categories:
 | 94   | Binary Tree Inorder Traversal  | Recursive/Iterative O(n) time, O(n) space                      |
 | 101  | Symmetric Tree                 | Recursive or Iterative + Stack/Queue, T&S: O(n)                |
 | 104  | Maximum Depth of Binary Tree   | Recursion with levels, incrementing in child call, T&S: O(n)   |
+| 108  | Convert Sorted Array to BST    | Recursively Build Left and Right Subtrees, T&S: O(n)           |
 | 110  | Balanced Binary Tree           | Recursively Check tree balance, T&S: O(n)                      |
 | 111  | Minimum Depth of Binary Tree   | BFS/DFS, BFS in most cases is better than DFS, T&S: O(n)       |
 | 121  | Best Time to Buy & Sell Stock  | Track min and profit / Kandane's Algorithm, T: O(n), S: O(1)   |
