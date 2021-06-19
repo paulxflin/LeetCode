@@ -20,6 +20,7 @@ Categories:
 | 70   | Climbing Stairs                | Optimised DP (Essentially Fibonacci), T: O(n), S: O(1)         |
 | 83   | Remove Dups from Sorted List   | Set cur.next to next elem, increment o/w, T: O(n), S: O(1)     |
 | 94   | Binary Tree Inorder Traversal  | Recursive/Iterative O(n) time, O(n) space                      |
+| 100  | Same Tree                      | Recursively check nodes, O(n) time and space                   |
 | 101  | Symmetric Tree                 | Recursive or Iterative + Stack/Queue, T&S: O(n)                |
 | 104  | Maximum Depth of Binary Tree   | Recursion with levels, incrementing in child call, T&S: O(n)   |
 | 108  | Convert Sorted Array to BST    | Recursively Build Left and Right Subtrees, T&S: O(n)           |
