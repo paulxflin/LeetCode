@@ -31,6 +31,7 @@ Categories:
 | 136  | Single Number                  | Counter (Hash) or Math, O(n) time, O(n) space. XOR O(1) space! |
 | 141  | Linked List Cycle              | Tortoise and Hare, O(n) time, O(1) space                       |
 | 160  | Intersect of Two Linked Lists  | Two pointers two pass, O(n) time, O(1) space                   |
+| 167  | Two Sum II - Input Arr Sorted  | Two pointer, T: O(n), S: O(1)                                  |
 | 169  | Majority Element               | Boyer-Moore Voting Algorithm, O(n) time, O(1) space            |
 | 203  | Remove Linked List Elements    | Single Pointer, Dummy Head, T: O(n), S: O(1)                   |
 | 206  | Reverse Linked List            | Iteratively update the node, T: O(n), S: O(1)                  |
