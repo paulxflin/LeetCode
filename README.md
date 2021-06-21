@@ -42,6 +42,7 @@ Categories:
 | 303  | Range Sum Query - Immutable    | Memorisation of Accumulations, T&S: O(n)                       |
 | 338  | Counting Bits                  | DP: ans[i] = ans[i >> 1] + (i & 1), T&S: O(n)                  |
 | 349  | Intersection of Two Arrays     | Set intersection, T: O(n \* m), S: O(n+m)                      |
+| 350  | Intersection of Two Arrays II  | Deduct from Counter, T&S: O(n+m)                               |
 | 392  | Is Subsequence                 | Two pointers and/or iterator, T: O(t), S: O(1)                 |
 | 401  | Binary Watch                   | Collect One Bits List Comprehension / Backtracking, T&S: O(1)  |
 | 521  | Longest Uncommon Subsequence I | Same -> -1, o/w return longer string, T: (min(x, y)), S: O(1)  |
