@@ -60,6 +60,7 @@ Categories:
 | 852  | Peak Index in a Mountain Array | Binary Seach, Golden-Section Search, T: O(log n), S: O(1)      |
 | 872  | Leaf-Similar Trees             | DFS + List Compare, T&S: O(t1 + t2)                            |
 | 876  | Middle of the Linked List      | Two Pointers tortoise and hare, T: O(n), S: O(1)               |
+| 888  | Fair Candy Swap                | Sums to find diff and Sets, T: O(n + m), S: O(n)               |
 | 897  | Increasing Order Search Tree   | DFS + Dummy, T&S: O(n). DFS + Relinking, T: O(n), S: O(h)      |
 | 933  | Number of Recent Calls         | Queue, O(1) time and space due to problem constraints          |
 | 938  | Range Sum of BST               | DFS if parent strictly in range, O(n) time, O(h) space         |
