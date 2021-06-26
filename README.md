@@ -39,6 +39,7 @@ Categories:
 | 234  | Palindrome Linked List         | Reversed First Half == Second Half, T: O(n), S: O(1)           |
 | 237  | Delete Node in a Linked List   | Set cur.val as next.val, cur.next = next.next, T&S: O(1)       |
 | 257  | Binary Tree Paths              | Recursive DFS adding Child Nodes, T&S: O(n)                    |
+| 278  | First Bad Version              | Binary Search with Bisect + Wrapper, T: O(log n), S: O(1)      |
 | 292  | Nim Game                       | Win if n % 4 != 0, O(n) time and space.                        |
 | 303  | Range Sum Query - Immutable    | Memorisation of Accumulations, T&S: O(n)                       |
 | 338  | Counting Bits                  | DP: ans[i] = ans[i >> 1] + (i & 1), T&S: O(n)                  |
