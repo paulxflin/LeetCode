@@ -44,6 +44,7 @@ Categories:
 | 338  | Counting Bits                  | DP: ans[i] = ans[i >> 1] + (i & 1), T&S: O(n)                  |
 | 349  | Intersection of Two Arrays     | Set intersection, T: O(n \* m), S: O(n+m)                      |
 | 350  | Intersection of Two Arrays II  | Deduct from Counter, T&S: O(n+m)                               |
+| 367  | Valid Perfect Square           | n to the power of 0.5 mod 1 == 0, T&S: O(1)                    |
 | 374  | Guess Number Higher or Lower   | Binary Search, T: O(log n), S: O(1)                            |
 | 392  | Is Subsequence                 | Two pointers and/or iterator, T: O(t), S: O(1)                 |
 | 401  | Binary Watch                   | Collect One Bits List Comprehension / Backtracking, T&S: O(1)  |
