@@ -18,6 +18,7 @@ Categories:
 | 21   | Merge Two Sorted Lists         | Iterative (compare and append to list), O(n) time, O(1) space. |
 | 35   | Search Insert Position         | Bisect Binary Search, T: O(log n), S: O(1)                     |
 | 53   | Maximum Subarray               | DP/Kandane's T: O(n), S: O(1). D&C T: O(n), S: O(log n)        |
+| 69   | Sqrt(x)                        | Binary Search with multiplication, T: O(log n), S: O(n)        |
 | 70   | Climbing Stairs                | Optimised DP (Essentially Fibonacci), T: O(n), S: O(1)         |
 | 83   | Remove Dups from Sorted List   | Set cur.next to next elem, increment o/w, T: O(n), S: O(1)     |
 | 94   | Binary Tree Inorder Traversal  | Recursive/Iterative O(n) time, O(n) space                      |
