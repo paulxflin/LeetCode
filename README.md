@@ -94,6 +94,7 @@ Categories:
 | 1603 | Design Parking System          | Array, Instance Var, or hashmap for spaces, T&S: O(1)          |
 | 1608 | Special Arr with X Elems GEQ X | Reverse Sort Binary Search, T: O(n log n), S: O(1)             |
 | 1688 | Count of Matches in Tournament | n-1 matches, T&S: O(1). Even/odd if/else: T: O(log n), S: O(1) |
+| 1827 | Min Ops to Make Arr Increasing | Greedy using prev and count variables, T: O(n), S: O(1)        |
 | 1863 | Sum of All Subset XOR Totals   | Backtrack O(2^n) time, O(n) space. Bit O(n) time, O(1) space   |
 
 ## Medium
