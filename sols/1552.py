@@ -30,7 +30,7 @@ class Solution:
 
     #     return low if count(low) >= m else -1
 
-    # # Binary Search on Count (Revisited), O(n (log m + log n)) time, O(1) space
+    # # Binary Search on Count (Revisited), O(n (log m + log n)) time, O(n) space
     # def maxDistance(self, position: List[int], m: int) -> int:
     #     position.sort()
 

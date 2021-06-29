@@ -2,7 +2,7 @@ import bisect
 
 
 class Solution:
-    # # Binary Search with Bisect (Accepted), O(n log n + (log n)^2) time, O(1) space
+    # # Binary Search with Bisect (Accepted), O(n log n + (log n)^2) time, O(n) space
     # def specialArray(self, nums: List[int]) -> int:
     #     high = n = len(nums)
     #     nums.sort()
@@ -15,7 +15,7 @@ class Solution:
     #             high = mid
     #     return low if n-bisect.bisect_left(nums, low) == low else -1
 
-    # Reverse Sort Binary Search (Top Voted), O(n log n) time, O(1) space
+    # Reverse Sort Binary Search (Top Voted), O(n log n) time, O(n) space
     def specialArray(self, nums: List[int]) -> int:
         nums.sort(reverse=True)
         left, right = 0, len(nums)

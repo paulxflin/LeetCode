@@ -53,6 +53,7 @@ Categories:
 | 441  | Arranging Coins                | Express with Maths, Complete the Square, T&S: O(1)             |
 | 521  | Longest Uncommon Subsequence I | Same -> -1, o/w return longer string, T: (min(x, y)), S: O(1)  |
 | 559  | Maximum Depth of N-ary Tree    | DFS, O(n) time, O(n) space. BFS, O(n) time, O(n) space         |
+| 561  | Array Partition I              | Sum + Stepped Slicing + Sort, T: O(n log n), S: O(n)           |
 | 563  | Binary Tree Tilt               | Single Function Sum, Tilt, Update Res (Global), T&S: O(n)      |
 | 690  | Employee Importance            | Emp Hashmap (id to inx or id to emp) + DfS or BFS, T&S: O(n)   |
 | 703  | Kth Largest Elem in a Stream   | Heap of k elems, T: O(k log n + n) init, O(log n) add, S: O(k) |
@@ -75,7 +76,7 @@ Categories:
 | 997  | Find the Town Judge            | Trusted - Trusts == n-1 for Judge, O(n + t) time, O(n) space   |
 | 1021 | Remove Outermost Parentheses   | Open = Closed, O(n) time and space                             |
 | 1025 | Divisor Game                   | Even wins, odd loses O(1). Bottom up DP O(n \* sqrt(n)) time   |
-| 1046 | Last Stone Weight              | Heap T: O(nlogn), S: O(n). bisect.insort T: O(n^2), S: O(1)    |
+| 1046 | Last Stone Weight              | Heap T: O(nlogn), S: O(n). bisect.insort T: O(n^2), S: O(n)    |
 | 1108 | Defanging an IP Address        | Use Python .replace('.', '[.]'), O(n\*m) time, O(n) space      |
 | 1137 | N-th Tribonacci Number         | Bottom Up DP with modulo, T: O(n), S: O(1)                     |
 | 1221 | Split a Str in Balanced Strs   | Increment Res when num L - num R = 0, O(n) time, O(1) space    |
@@ -87,13 +88,13 @@ Categories:
 | 1342 | Num Steps to Reduce Num to 0   | Binary Representation, O(bits) space and time                  |
 | 1346 | Check if N and 2N Exist        | Counter + Accept if there are 2 zeros, T&S: O(n)               |
 | 1351 | Count Negative Numbers in SM   | Negative Values form Staircase, O(n + m) time, O(n) space      |
-| 1385 | Find the Dist Between Two Arrs | Sort arr2 + Binary Search, T: O((m + n) log m), S: O(1)        |
+| 1385 | Find the Dist Between Two Arrs | Sort arr2 + Binary Search, T: O((m + n) log m), S: O(n)        |
 | 1480 | Running Sum of 1d Array        | Use Prior Element, sum in place, T: O(n), S: O(1)              |
 | 1512 | Number of Good Pairs           | Hash + Math n \* (n-1) / 2, O(n) time, O(n) space              |
 | 1528 | Shuffle String                 | Create list, insert s with indicies, O(n) time and space       |
 | 1539 | Kth Missing Positive Number    | Binary Search non-missing vals in res, T: O(log n), S: O(1)    |
 | 1603 | Design Parking System          | Array, Instance Var, or hashmap for spaces, T&S: O(1)          |
-| 1608 | Special Arr with X Elems GEQ X | Reverse Sort Binary Search, T: O(n log n), S: O(1)             |
+| 1608 | Special Arr with X Elems GEQ X | Reverse Sort Binary Search, T: O(n log n), S: O(n)             |
 | 1688 | Count of Matches in Tournament | n-1 matches, T&S: O(1). Even/odd if/else: T: O(log n), S: O(1) |
 | 1827 | Min Ops to Make Arr Increasing | Greedy using prev and count variables, T: O(n), S: O(1)        |
 | 1863 | Sum of All Subset XOR Totals   | Backtrack O(2^n) time, O(n) space. Bit O(n) time, O(1) space   |
@@ -111,7 +112,7 @@ Categories:
 | 676  | Implement Magic Dictionary             | Diff = 1 for List/dict, Candidates, T&S: O(n \* s) |
 | 787  | Cheapest Flights Within K Stops        | BFS with two dicts, T&S: O(n^k + n^2)              |
 | 955  | Delete Columns to Make Sorted II       | Track unsorted strs using set, T: O(n\*m), S: O(n) |
-| 1552 | Magnetic Force Between Two Balls       | Binary Search, T: O(n \* (log n + log m)), S: O(1) |
+| 1552 | Magnetic Force Between Two Balls       | Binary Search, T: O(n \* (log n + log m)), S: O(n) |
 | 1727 | Largest Submatrix With Rearrangements  | Sum column stacks, T: O(n \* m log m), S: O(1)     |
 | 1864 | Min Swaps for alternating Binary Str   | Count Wrong Positions, T: O(n), S: O(1)            |
-| 1877 | Minimize Maximum Pair Sum in Array     | Sort, Min + Max, T: O(n log n), S: O(1)            |
+| 1877 | Minimize Maximum Pair Sum in Array     | Sort, Min + Max, T: O(n log n), S: O(n)            |

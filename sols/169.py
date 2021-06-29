@@ -14,7 +14,7 @@ class Solution(object):
     #         if v > maj:
     #             return k
 
-    # # Sorting (Solution), Time O(n log n), Space O(1)
+    # # Sorting (Solution), Time O(n log n), Space O(n)
     # def majorityElement(self, nums):
     #     nums.sort()
     #     return nums[len(nums)//2]

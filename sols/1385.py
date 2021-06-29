@@ -2,7 +2,7 @@ import bisect
 
 
 class Solution:
-    # # Sort + Binary Search (Accepted), O((n + m) log m) time, O(1) space
+    # # Sort + Binary Search (Accepted), O((n + m) log m) time, O(n) space
     # def findTheDistanceValue(self, arr1: List[int], arr2: List[int], d: int) -> int:
     #     res = 0
     #     arr2.sort()
@@ -18,7 +18,7 @@ class Solution:
 
     #     return res
 
-    # Sort + Binary Search (Accepted), O((n + m) log m) time, O(1) space
+    # Sort + Binary Search (Accepted), O((n + m) log m) time, O(n) space
     def findTheDistanceValue(self, arr1: List[int], arr2: List[int], d: int) -> int:
         res = 0
         arr2.sort()

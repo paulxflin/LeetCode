@@ -1,5 +1,5 @@
 class Solution:
-    # Min + Max (Accepted), O(n log n) time, O(1) space
+    # Min + Max (Accepted), O(n log n) time, O(n) space
     def minPairSum(self, nums: List[int]) -> int:
         nums.sort()
         l, r = 0, len(nums) - 1

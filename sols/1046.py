@@ -3,7 +3,7 @@ import heapq
 
 
 class Solution(object):
-    # # Bisect.insort (Accepted), O(n^2) time, O(1) space
+    # # Bisect.insort (Accepted), O(n^2) time, O(n) space
     # def lastStoneWeight(self, stones):
     #     """
     #     :type stones: List[int]
