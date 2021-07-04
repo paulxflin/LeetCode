@@ -66,6 +66,7 @@ Categories:
 | 746  | Min Cost Climbing Stairs       | Bottom Up DP 3 Vars, T: O(n), S: O(1)                          |
 | 783  | Min Dist Between BST Nodes     | In Order Traversal with DFS and cache pred, T: O(n), S: O(h)   |
 | 852  | Peak Index in a Mountain Array | Binary Seach, Golden-Section Search, T: O(log n), S: O(1)      |
+| 860  | Lemonade Change                | Greedy Simulation, T: O(n), S: O(1)                            |
 | 872  | Leaf-Similar Trees             | DFS + List Compare, T&S: O(t1 + t2)                            |
 | 876  | Middle of the Linked List      | Two Pointers tortoise and hare, T: O(n), S: O(1)               |
 | 888  | Fair Candy Swap                | Sums to find diff and Sets, T: O(n + m), S: O(n)               |
