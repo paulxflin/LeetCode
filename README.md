@@ -68,6 +68,7 @@ Categories:
 | 744  | Find Smallest Letter > Target  | Binary Search using Bisect, T: O(log n), S: O(1)               |
 | 746  | Min Cost Climbing Stairs       | Bottom Up DP 3 Vars, T: O(n), S: O(1)                          |
 | 783  | Min Dist Between BST Nodes     | In Order Traversal with DFS and cache pred, T: O(n), S: O(h)   |
+| 832  | Flipping an Image              | Modify i and len(n)-i-1 simultaneously, T: O(n), S: O(1)       |
 | 852  | Peak Index in a Mountain Array | Binary Seach, Golden-Section Search, T: O(log n), S: O(1)      |
 | 860  | Lemonade Change                | Greedy Simulation, T: O(n), S: O(1)                            |
 | 872  | Leaf-Similar Trees             | DFS + List Compare, T&S: O(t1 + t2)                            |
