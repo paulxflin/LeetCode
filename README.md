@@ -58,6 +58,7 @@ Categories:
 | 559  | Maximum Depth of N-ary Tree    | DFS, O(n) time, O(n) space. BFS, O(n) time, O(n) space         |
 | 561  | Array Partition I              | Sum + Stepped Slicing + Sort, T: O(n log n), S: O(n)           |
 | 563  | Binary Tree Tilt               | Single Function Sum, Tilt, Update Res (Global), T&S: O(n)      |
+| 605  | Can Place Flowers              | Greedily check 3 consecutive plots are empty, T: O(n), S: O(1) |
 | 680  | Valid Palindrome II            | Two Pointers, check both cases l != r, T&S: O(n)               |
 | 690  | Employee Importance            | Emp Hashmap (id to inx or id to emp) + DfS or BFS, T&S: O(n)   |
 | 703  | Kth Largest Elem in a Stream   | Heap of k elems, T: O(k log n + n) init, O(log n) add, S: O(k) |
