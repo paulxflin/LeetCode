@@ -55,6 +55,7 @@ Categories:
 | 441  | Arranging Coins                | Express with Maths, Complete the Square, T&S: O(1)             |
 | 455  | Assign Cookies                 | Least Greedy Child first, T: O(g log g + s log s) S: O(g + s)  |
 | 521  | Longest Uncommon Subsequence I | Same -> -1, o/w return longer string, T: (min(x, y)), S: O(1)  |
+| 557  | Reverse Words in a String III  | Split Reverse Join or Double Reverse, T&S: O(n)                |
 | 559  | Maximum Depth of N-ary Tree    | DFS, O(n) time, O(n) space. BFS, O(n) time, O(n) space         |
 | 561  | Array Partition I              | Sum + Stepped Slicing + Sort, T: O(n log n), S: O(n)           |
 | 563  | Binary Tree Tilt               | Single Function Sum, Tilt, Update Res (Global), T&S: O(n)      |
