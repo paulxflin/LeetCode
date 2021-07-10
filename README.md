@@ -100,6 +100,7 @@ Categories:
 | 1281 | Product - Sum of Digits of Int | Map & Reduce, T&S: O(log n). Mod & Div, T: O(log n), S: O(1)   |
 | 1290 | Convert Binary to Int in LL    | Bit Shift Left and Bitwise Or, T: O(n), S: O(1)                |
 | 1323 | Maximum 69 Number              | Greedily replace leftmost 6 with 9, T&S: O(n)                  |
+| 1332 | Remove Palindromic Subseqs     | At most 2 ops are needed to get empty str, a then b, T&S: O(n) |
 | 1337 | The K Weakest Rows in a Matrix | Binary Search + Heap (Best). Column, T: O(m \* n), S: O(k)     |
 | 1342 | Num Steps to Reduce Num to 0   | Binary Representation, O(bits) space and time                  |
 | 1346 | Check if N and 2N Exist        | Counter + Accept if there are 2 zeros, T&S: O(n)               |
