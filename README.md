@@ -62,6 +62,7 @@ Categories:
 | 561  | Array Partition I              | Sum + Stepped Slicing + Sort, T: O(n log n), S: O(n)           |
 | 563  | Binary Tree Tilt               | Single Function Sum, Tilt, Update Res (Global), T&S: O(n)      |
 | 605  | Can Place Flowers              | Greedily check 3 consecutive plots are empty, T: O(n), S: O(1) |
+| 653  | Two Sum IV - Input is a BST    | DFS or BFS with adding and lookup using a set, T&S: O(n)       |
 | 680  | Valid Palindrome II            | Two Pointers, check both cases l != r, T&S: O(n)               |
 | 690  | Employee Importance            | Emp Hashmap (id to inx or id to emp) + DfS or BFS, T&S: O(n)   |
 | 696  | Count Binary Substrings        | Count Consecutive Groups and take min, T: O(n), S: O(1)        |
