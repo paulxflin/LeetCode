@@ -16,6 +16,7 @@ Categories:
 | ---- | ------------------------------ | -------------------------------------------------------------- |
 | 1    | Two Sum                        | Dict (num, index), O(n) time, O(n) space                       |
 | 21   | Merge Two Sorted Lists         | Iterative (compare and append to list), O(n) time, O(1) space. |
+| 27   | Remove Element                 | Two pointers meet in middle, T: O(n), S: O(1)                  |
 | 35   | Search Insert Position         | Bisect Binary Search, T: O(log n), S: O(1)                     |
 | 53   | Maximum Subarray               | DP/Kandane's T: O(n), S: O(1). D&C T: O(n), S: O(log n)        |
 | 69   | Sqrt(x)                        | Binary Search with multiplication, T: O(log n), S: O(n)        |
