@@ -79,6 +79,7 @@ Categories:
 | 783  | Min Dist Between BST Nodes     | In Order Traversal with DFS and cache pred, T: O(n), S: O(h)   |
 | 821  | Shortest Dist to a Character   | One Pass with find(), or Two Pass for left vs right, T&S: O(n) |
 | 832  | Flipping an Image              | Modify i and len(n)-i-1 simultaneously, T: O(n), S: O(1)       |
+| 844  | Backspace String Compare       | Two Pointers reverse scan, T: O(n), S: O(1)                    |
 | 852  | Peak Index in a Mountain Array | Binary Seach, Golden-Section Search, T: O(log n), S: O(1)      |
 | 860  | Lemonade Change                | Greedy Simulation, T: O(n), S: O(1)                            |
 | 872  | Leaf-Similar Trees             | DFS + List Compare, T&S: O(t1 + t2)                            |
