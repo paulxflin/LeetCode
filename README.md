@@ -50,6 +50,7 @@ Categories:
 | 303  | Range Sum Query - Immutable    | Memorisation of Accumulations, T&S: O(n)                       |
 | 338  | Counting Bits                  | DP: ans[i] = ans[i >> 1] + (i & 1), T&S: O(n)                  |
 | 344  | Reverse String                 | Library in place reverse(), T: O(n), S: O(1)                   |
+| 345  | Reverse Vowels of a String     | Two Pointer Swap or Regex Findall and Sub, T&S: O(n)           |
 | 349  | Intersection of Two Arrays     | Set intersection, T: O(n \* m), S: O(n+m)                      |
 | 350  | Intersection of Two Arrays II  | Deduct from Counter, T&S: O(n+m)                               |
 | 367  | Valid Perfect Square           | n to the power of 0.5 mod 1 == 0, T&S: O(1)                    |
