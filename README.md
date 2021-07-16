@@ -23,6 +23,7 @@ Categories:
 | 69   | Sqrt(x)                        | Binary Search with multiplication, T: O(log n), S: O(n)        |
 | 70   | Climbing Stairs                | Optimised DP (Essentially Fibonacci), T: O(n), S: O(1)         |
 | 83   | Remove Dups from Sorted List   | Set cur.next to next elem, increment o/w, T: O(n), S: O(1)     |
+| 88   | Merge Sorted Array             | Two Pointers fill in nums1 in reverse order, T: O(n), S: O(1)  |
 | 94   | Binary Tree Inorder Traversal  | Recursive/Iterative O(n) time, O(n) space                      |
 | 100  | Same Tree                      | Recursively check nodes, O(n) time and space                   |
 | 101  | Symmetric Tree                 | Recursive or Iterative + Stack/Queue, T&S: O(n)                |
