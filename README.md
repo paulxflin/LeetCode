@@ -80,6 +80,7 @@ Categories:
 | 733  | Flood Fill                     | DFS + Skip if colour is not original, T&S: O(n)                |
 | 744  | Find Smallest Letter > Target  | Binary Search using Bisect, T: O(log n), S: O(1)               |
 | 746  | Min Cost Climbing Stairs       | Bottom Up DP 3 Vars, T: O(n), S: O(1)                          |
+| 771  | Jewels and Stones              | Set of Jewels + Sum Stones in Set, T: O(J+S), S: O(J)          |
 | 783  | Min Dist Between BST Nodes     | In Order Traversal with DFS and cache pred, T: O(n), S: O(h)   |
 | 821  | Shortest Dist to a Character   | One Pass with find(), or Two Pass for left vs right, T&S: O(n) |
 | 832  | Flipping an Image              | Modify i and len(n)-i-1 simultaneously, T: O(n), S: O(1)       |
