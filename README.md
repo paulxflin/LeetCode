@@ -136,6 +136,7 @@ Categories:
 | 1768 | Merge Strings Alternately      | One Pointer or Python itertools zip_longest, T&S: O(n + m)     |
 | 1773 | Count Items Matching a Rule    | Get Index for Key + Count Matching Items, T: O(n), S: O(1)     |
 | 1827 | Min Ops to Make Arr Increasing | Greedy using prev and count variables, T: O(n), S: O(1)        |
+| 1832 | Check if Sentence Is Pangram   | Convert Sentence to Set and check length, T&S: O(n)            |
 | 1859 | Sorting the Sentence           | Split, Build String, then Join, T&S: O(n)                      |
 | 1863 | Sum of All Subset XOR Totals   | Backtrack O(2^n) time, O(n) space. Bit O(n) time, O(1) space   |
 | 1903 | Largest Odd Number in String   | Find Rightmost Odd Digit and Slice, T: O(n), S: O(1)           |
