@@ -132,6 +132,7 @@ Categories:
 | 1614 | Max Nesting Depth of Parens    | Count Max Open Braces with left-right scan, T: O(n), S: O(1)   |
 | 1662 | Check If Two String Arr are Eq | Use generator to compare each char, T: O(min(n, m)), S: O(1)   |
 | 1678 | Goal Parser Interpretation     | Inbuilt string replacement or regex sub, T&S: O(n)             |
+| 1684 | Count Num of Consistent Strs   | Word is subset of accepted or sum-all, T: O(NW), S: O(1)       |
 | 1688 | Count of Matches in Tournament | n-1 matches, T&S: O(1). Even/odd if/else: T: O(log n), S: O(1) |
 | 1710 | Maximum Units on a Truck       | Reverse sort by units per box + Greedy, T: O(n log n), S: O(n) |
 | 1768 | Merge Strings Alternately      | One Pointer or Python itertools zip_longest, T&S: O(n + m)     |
