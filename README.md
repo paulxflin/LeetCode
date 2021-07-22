@@ -76,6 +76,7 @@ Categories:
 | 696  | Count Binary Substrings        | Count Consecutive Groups and take min, T: O(n), S: O(1)        |
 | 703  | Kth Largest Elem in a Stream   | Heap of k elems, T: O(k log n + n) init, O(log n) add, S: O(k) |
 | 704  | Binary Search                  | Binary Search with Bisect, T: O(log n), S: O(1)                |
+| 709  | To Lower Case                  | Use python str.lower() method, T: O(n), S: O(1)                |
 | 720  | Longest Word in Dictionary     | Trie + DFS, T&S: O(n \* s). Sort + Set, T: O(n log n), S: O(n) |
 | 733  | Flood Fill                     | DFS + Skip if colour is not original, T&S: O(n)                |
 | 744  | Find Smallest Letter > Target  | Binary Search using Bisect, T: O(log n), S: O(1)               |
