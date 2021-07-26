@@ -143,6 +143,7 @@ Categories:
 | 1710 | Maximum Units on a Truck       | Reverse sort by units per box + Greedy, T: O(n log n), S: O(n) |
 | 1768 | Merge Strings Alternately      | One Pointer or Python itertools zip_longest, T&S: O(n + m)     |
 | 1773 | Count Items Matching a Rule    | Get Index for Key + Count Matching Items, T: O(n), S: O(1)     |
+| 1812 | Det Color of Chessboard Square | Even or odd steps from the a1 square, T&S: O(1)                |
 | 1816 | Truncate Sentence              | Split, Slice up to k, Join, T&S: O(n)                          |
 | 1827 | Min Ops to Make Arr Increasing | Greedy using prev and count variables, T: O(n), S: O(1)        |
 | 1832 | Check if Sentence Is Pangram   | Convert Sentence to Set and check length, T&S: O(n)            |
