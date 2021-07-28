@@ -154,6 +154,7 @@ Categories:
 | 1863 | Sum of All Subset XOR Totals   | Backtrack O(2^n) time, O(n) space. Bit O(n) time, O(1) space   |
 | 1903 | Largest Odd Number in String   | Find Rightmost Odd Digit and Slice, T: O(n), S: O(1)           |
 | 1935 | Max Num of Words You Can Type  | Broken letter set, add words any letters in it, T&S: O(n)      |
+| 1941 | Check All Chars Occurs Equally | Length of Counter(s).values() set, T&S: O(n)                   |
 
 ## Medium
 
