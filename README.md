@@ -107,6 +107,7 @@ Categories:
 | 977  | Squares of a Sorted Array      | Two Pointers at either ends, O(n) time, O(n) space             |
 | 993  | Cousins in Binary Tree         | Tuple with BFS, T&S: O(n). Tuple with DFS, T: O(n), S: O(h)    |
 | 997  | Find the Town Judge            | Trusted - Trusts == n-1 for Judge, O(n + t) time, O(n) space   |
+| 1002 | Find Common Characters         | Counter Intersection and elements, O(n) time, O(l) space       |
 | 1005 | Max Sum Of Array After K Negs  | Sort, Negate Negs,Subtract Min if Odd, T: O(n log n), S: O(n)  |
 | 1013 | Partition Arr into 3 Equal Sum | Each part will have a sum of the total/3, T: O(n), S: O(1)     |
 | 1021 | Remove Outermost Parentheses   | Open = Closed, O(n) time and space                             |
