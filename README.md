@@ -99,6 +99,7 @@ Categories:
 | 917  | Reverse Only Letters           | Two Pointers, One pass, while-if loop, T&S: O(n)               |
 | 922  | Sort Array By Parity II        | Two pointers even and odd swap, T: O(n), S: O(1)               |
 | 925  | Long Pressed Name              | Two Pointers to match all letters in name, T: O(n), S: O(1)    |
+| 929  | Unique Email Addresses         | Set + Find/Split local name for slicing, T&S: O(n)             |
 | 933  | Number of Recent Calls         | Queue, O(1) time and space due to problem constraints          |
 | 938  | Range Sum of BST               | DFS if parent strictly in range, O(n) time, O(h) space         |
 | 942  | DI String Match                | Ad-Hoc high and low solution, T&S: O(n)                        |
