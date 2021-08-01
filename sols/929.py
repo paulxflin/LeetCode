@@ -1,5 +1,5 @@
 class Solution:
-    # Set + Find (Top Voted), O(n) time and space
+    # Set + Find (Accepted), O(n) time and space
     def numUniqueEmails(self, emails: List[str]) -> int:
         res = set()
         for email in emails:

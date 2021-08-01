@@ -87,6 +87,7 @@ Categories:
 | 804  | Unique Morse Code Words        | Set + Ord + List Comprehension, T&S: O(S)                      |
 | 811  | Subdomain Visit Count          | Use a Counter and add the count to every subdom, T&S: O(n)     |
 | 821  | Shortest Dist to a Character   | One Pass with find(), or Two Pass for left vs right, T&S: O(n) |
+| 824  | Goat Latin                     | Apply rules to transform words with numeric index, T&S: O(n)   |
 | 832  | Flipping an Image              | Modify i and len(n)-i-1 simultaneously, T: O(n), S: O(1)       |
 | 844  | Backspace String Compare       | Two Pointers reverse scan, T: O(n), S: O(1)                    |
 | 852  | Peak Index in a Mountain Array | Binary Seach, Golden-Section Search, T: O(log n), S: O(1)      |
