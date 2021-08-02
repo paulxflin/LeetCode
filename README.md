@@ -86,6 +86,7 @@ Categories:
 | 771  | Jewels and Stones              | Set of Jewels + Sum Stones in Set, T: O(J+S), S: O(J)          |
 | 783  | Min Dist Between BST Nodes     | In Order Traversal with DFS and cache pred, T: O(n), S: O(h)   |
 | 804  | Unique Morse Code Words        | Set + Ord + List Comprehension, T&S: O(S)                      |
+| 806  | Num of Lines To Write String   | Track current line width and num lines total, T: O(n), S: O(1) |
 | 811  | Subdomain Visit Count          | Use a Counter and add the count to every subdom, T&S: O(n)     |
 | 821  | Shortest Dist to a Character   | One Pass with find(), or Two Pass for left vs right, T&S: O(n) |
 | 824  | Goat Latin                     | Apply rules to transform words with numeric index, T&S: O(n)   |
