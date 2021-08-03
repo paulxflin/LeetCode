@@ -61,6 +61,7 @@ Categories:
 | 392  | Is Subsequence                 | Two pointers and/or iterator, T: O(t), S: O(1)                 |
 | 401  | Binary Watch                   | Collect One Bits List Comprehension / Backtracking, T&S: O(1)  |
 | 409  | Longest Palindrome             | Use Counter to count number of odds or pairs, T&S: O(n)        |
+| 412  | Fizz Buzz                      | Use if-elif-else or list comprehension, T&S: O(n)              |
 | 441  | Arranging Coins                | Express with Maths, Complete the Square, T&S: O(1)             |
 | 455  | Assign Cookies                 | Least Greedy Child first, T: O(g log g + s log s) S: O(g + s)  |
 | 500  | Keyboard Row                   | Set of both lines and lowercase word, T&S: O(n)                |
