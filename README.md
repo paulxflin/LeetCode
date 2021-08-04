@@ -120,6 +120,7 @@ Categories:
 | 1025 | Divisor Game                   | Even wins, odd loses O(1). Bottom up DP O(n \* sqrt(n)) time   |
 | 1046 | Last Stone Weight              | Heap T: O(nlogn), S: O(n). bisect.insort T: O(n^2), S: O(n)    |
 | 1047 | Remove All Adj Dups In String  | Use stack deleting top and ch dups, join for result, T&S: O(1) |
+| 1078 | Occurrences After Bigram       | Check the previous two with index or zip, T&S: O(n)            |
 | 1089 | Duplicate Zeros                | Count Zeroes and Swap backwards, T: O(n), S: O(1)              |
 | 1108 | Defanging an IP Address        | Use Python .replace('.', '[.]'), O(n\*m) time, O(n) space      |
 | 1137 | N-th Tribonacci Number         | Bottom Up DP with modulo, T: O(n), S: O(1)                     |
