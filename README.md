@@ -142,6 +142,7 @@ Categories:
 | 1385 | Find the Dist Between Two Arrs | Sort arr2 + Binary Search, T: O((m + n) log m), S: O(n)        |
 | 1403 | Min Non-increasing Subseq      | Reverse Sort + Sum Target + Slicing, T: O(n log n), S: O(n)    |
 | 1436 | Destination City               | Difference remaining after inbound-outbound set, T&S: O(n)     |
+| 1455 | Check If Word Occurs As Prefix | Split + Slice / string.startswith(), T&S: O(n)                 |
 | 1480 | Running Sum of 1d Array        | Use Prior Element, sum in place, T: O(n), S: O(1)              |
 | 1512 | Number of Good Pairs           | Hash + Math n \* (n-1) / 2, O(n) time, O(n) space              |
 | 1528 | Shuffle String                 | Create list, insert s with indicies, O(n) time and space       |
