@@ -147,6 +147,7 @@ Categories:
 | 1512 | Number of Good Pairs           | Hash + Math n \* (n-1) / 2, O(n) time, O(n) space              |
 | 1528 | Shuffle String                 | Create list, insert s with indicies, O(n) time and space       |
 | 1539 | Kth Missing Positive Number    | Binary Search non-missing vals in res, T: O(log n), S: O(1)    |
+| 1598 | Crawler Log Folder             | Find depth from main, use max or if at main level, T&S: O(n)   |
 | 1603 | Design Parking System          | Array, Instance Var, or hashmap for spaces, T&S: O(1)          |
 | 1608 | Special Arr with X Elems GEQ X | Reverse Sort Binary Search, T: O(n log n), S: O(n)             |
 | 1614 | Max Nesting Depth of Parens    | Count Max Open Braces with left-right scan, T: O(n), S: O(1)   |
