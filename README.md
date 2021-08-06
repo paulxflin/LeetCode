@@ -172,6 +172,7 @@ Categories:
 | 1903 | Largest Odd Number in String   | Find Rightmost Odd Digit and Slice, T: O(n), S: O(1)           |
 | 1935 | Max Num of Words You Can Type  | Broken letter set, add words any letters in it, T&S: O(n)      |
 | 1941 | Check All Chars Occurs Equally | Length of Counter(s).values() set, T&S: O(n)                   |
+| 1945 | Sum of Digs of Str after Conv  | Iterate chars in string and sum each transform, T&S: O(n)      |
 
 ## Medium
 
