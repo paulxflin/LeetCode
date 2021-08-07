@@ -141,6 +141,7 @@ Categories:
 | 1374 | Gen Strs with Odd Count Chars  | Check if odd, use asterisk operator to gen string, T&S: O(n)   |
 | 1385 | Find the Dist Between Two Arrs | Sort arr2 + Binary Search, T: O((m + n) log m), S: O(n)        |
 | 1403 | Min Non-increasing Subseq      | Reverse Sort + Sum Target + Slicing, T: O(n log n), S: O(n)    |
+| 1408 | String Matching in an Array    | Build Sentence + string.Count, T: O(w * s), S: O(w)            |
 | 1436 | Destination City               | Difference remaining after inbound-outbound set, T&S: O(n)     |
 | 1455 | Check If Word Occurs As Prefix | Split + Slice / string.startswith(), T&S: O(n)                 |
 | 1480 | Running Sum of 1d Array        | Use Prior Element, sum in place, T: O(n), S: O(1)              |
