@@ -189,6 +189,6 @@ Categories:
 | 955  | Delete Columns to Make Sorted II       | Track unsorted strs using set, T: O(n\*m), S: O(n) |
 | 1552 | Magnetic Force Between Two Balls       | Binary Search, T: O(n \* (log n + log m)), S: O(n) |
 | 1727 | Largest Submatrix With Rearrangements  | Sum column stacks, T: O(n \* m log m), S: O(1)     |
-| 1802 | Max Value at a Given Ind in an Array   | Binary Search, T: O(log(maxSum)), S: O(1)          |
+| 1802 | Max Value at a Given Ind in an Array   | Binary Search, sum arith seq, T: O(log s), S: O(1) |
 | 1864 | Min Swaps for alternating Binary Str   | Count Wrong Positions, T: O(n), S: O(1)            |
 | 1877 | Minimize Maximum Pair Sum in Array     | Sort, Min + Max, T: O(n log n), S: O(n)            |
