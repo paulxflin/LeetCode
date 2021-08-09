@@ -160,6 +160,7 @@ Categories:
 | 1694 | Reformat Phone Number          | Use string.translate() to strip or re.sub(): T&S: O(n)         |
 | 1704 | Determine if Halves Are Alike  | Check if letters are in vowel set, T: O(n), S: O(1)            |
 | 1710 | Maximum Units on a Truck       | Reverse sort by units per box + Greedy, T: O(n log n), S: O(n) |
+| 1763 | Longest Nice Substring         | Recursive Set + Swapcase, T: O(n^2), S: O(n)                   |
 | 1768 | Merge Strings Alternately      | One Pointer or Python itertools zip_longest, T&S: O(n + m)     |
 | 1773 | Count Items Matching a Rule    | Get Index for Key + Count Matching Items, T: O(n), S: O(1)     |
 | 1812 | Det Color of Chessboard Square | Even or odd steps from the a1 square, T&S: O(1)                |
