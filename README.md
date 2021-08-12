@@ -194,6 +194,7 @@ Categories:
 | 787  | Cheapest Flights Within K Stops        | BFS with two dicts, T&S: O(n^k + n^2)              |
 | 849  | Maximize Distance to Closest Person    | Count spaces using prev pointer, T: O(n), S: O(1)  |
 | 955  | Delete Columns to Make Sorted II       | Track unsorted strs using set, T: O(n\*m), S: O(n) |
+| 1109 | Corporate Flight Bookings              | Sweep Lines, accumulate seat, T: O(b + n), S: O(n) |
 | 1507 | Reformat Date                          | Dict for months + slice day, T&S: O(1)             |
 | 1552 | Magnetic Force Between Two Balls       | Binary Search, T: O(n \* (log n + log m)), S: O(n) |
 | 1664 | Ways to Make a Fair Array              | Two sum pairs for even and odd, T: O(n), S: O(1)   | 
