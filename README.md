@@ -172,6 +172,7 @@ Categories:
 | 1844 | Replace All Digits with Chars  | Do the shift with Chr() and Ord(), T&S: O(n)                   |
 | 1859 | Sorting the Sentence           | Split, Build String, then Join, T&S: O(n)                      |
 | 1863 | Sum of All Subset XOR Totals   | Backtrack O(2^n) time, O(n) space. Bit O(n) time, O(1) space   |
+| 1869 | Longer Segs of Ones than Zeros | Keep track of longest 1 and 0, O(n) space, O(1) time           |
 | 1876 | Substrs Sz 3 Distinct Chars    | Set length + String Slicing, T: O(n), S: O(1)                  |
 | 1880 | Check Word == Sum of Two Words | Use Ord to convert to letter value, cast word to int T&S: O(n) |
 | 1903 | Largest Odd Number in String   | Find Rightmost Odd Digit and Slice, T: O(n), S: O(1)           |
