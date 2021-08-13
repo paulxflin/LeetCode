@@ -192,7 +192,7 @@ Categories:
 | 306  | Additive Number                        | Find all Pairs and test seq, T: O(n^2), S: O(n)    |
 | 464  | Can I Win                              | Top Down DP, choices as tuple key, T&S: O(2^n)     |
 | 676  | Implement Magic Dictionary             | Diff = 1 for List/dict, Candidates, T&S: O(n \* s) |
-| 720  | Longest Word in Dictionary             | Sort + Set, T: O(n log n), S: O(n)                |
+| 720  | Longest Word in Dictionary             | Sort + Set, T: O(n log n), S: O(n)                 |
 | 787  | Cheapest Flights Within K Stops        | BFS with two dicts, T&S: O(n^k + n^2)              |
 | 849  | Maximize Distance to Closest Person    | Count spaces using prev pointer, T: O(n), S: O(1)  |
 | 955  | Delete Columns to Make Sorted II       | Track unsorted strs using set, T: O(n\*m), S: O(n) |
