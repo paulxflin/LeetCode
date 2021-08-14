@@ -174,6 +174,7 @@ Categories:
 | 1869 | Longer Segs of Ones than Zeros | Keep track of longest 1 and 0, O(n) space, O(1) time           |
 | 1876 | Substrs Sz 3 Distinct Chars    | Set length + String Slicing, T: O(n), S: O(1)                  |
 | 1880 | Check Word == Sum of Two Words | Use Ord to convert to letter value, cast word to int T&S: O(n) |
+| 1897 | Move Chars to Make Strs Equal  | Use a Counter and divide all elems by len(w), T&S: O(n)        |
 | 1903 | Largest Odd Number in String   | Find Rightmost Odd Digit and Slice, T: O(n), S: O(1)           |
 | 1935 | Max Num of Words You Can Type  | Broken letter set, add words any letters in it, T&S: O(n)      |
 | 1941 | Check All Chars Occurs Equally | Length of Counter(s).values() set, T&S: O(n)                   |
