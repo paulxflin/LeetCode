@@ -194,6 +194,7 @@ Categories:
 | 676  | Implement Magic Dictionary             | Diff = 1 for List/dict, Candidates, T&S: O(n \* s) |
 | 720  | Longest Word in Dictionary             | Sort + Set, T: O(n log n), S: O(n)                 |
 | 787  | Cheapest Flights Within K Stops        | BFS with two dicts, T&S: O(n^k + n^2)              |
+| 840  | Magic Squares In Grid                  | Brute Force or 5 and 43816729, T: O(m*n), S: O(1)  |
 | 849  | Maximize Distance to Closest Person    | Count spaces using prev pointer, T: O(n), S: O(1)  |
 | 955  | Delete Columns to Make Sorted II       | Track unsorted strs using set, T: O(n\*m), S: O(n) |
 | 1109 | Corporate Flight Bookings              | Sweep Lines, optimise overlaps, T: O(b+n), S: O(n) |
