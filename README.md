@@ -198,6 +198,7 @@ Categories:
 | 840  | Magic Squares In Grid                  | Brute Force or 5 and 43816729, T: O(m*n), S: O(1)  |
 | 849  | Maximize Distance to Closest Person    | Count spaces using prev pointer, T: O(n), S: O(1)  |
 | 955  | Delete Columns to Make Sorted II       | Track unsorted strs using set, T: O(n\*m), S: O(n) |
+| 1024 | Video Stitching                        | Two pass defaultdict for furthest end, T&S: O(n)   |
 | 1109 | Corporate Flight Bookings              | Sweep Lines, optimise overlaps, T: O(b+n), S: O(n) |
 | 1507 | Reformat Date                          | Dict for months + slice day, T&S: O(1)             |
 | 1552 | Magnetic Force Between Two Balls       | Binary Search, T: O(n \* (log n + log m)), S: O(n) |
