@@ -154,6 +154,7 @@ Categories:
 | 1603 | Design Parking System          | Array, Instance Var, or hashmap for spaces, T&S: O(1)          |
 | 1608 | Special Arr with X Elems GEQ X | Reverse Sort Binary Search, T: O(n log n), S: O(n)             |
 | 1614 | Max Nesting Depth of Parens    | Count Max Open Braces with left-right scan, T: O(n), S: O(1)   |
+| 1624 | Largest Substr in 2 Eq Chars   | Append new instance of char to list in dict, T&S: O(n)         |
 | 1629 | Slowest Key                    | One pass to compute the longest dur, T: O(n), S: O(1)          |
 | 1662 | Check If Two String Arr are Eq | Use generator to compare each char, T: O(min(n, m)), S: O(1)   |
 | 1678 | Goal Parser Interpretation     | Inbuilt string replacement or regex sub, T&S: O(n)             |
