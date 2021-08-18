@@ -1,4 +1,6 @@
 from collections import defaultdict
+from itertools import count
+from _operator import sub
 
 
 class Solution:
@@ -13,3 +15,7 @@ class Solution:
             dist = v[-1] - v[0] - 1
             res = max(dist, res)
         return res
+
+    # One liner (Top Voted), O(n) time and space
+    def maxLengthBetweenEqualCharacters(self, s: str) -> int:
+        return max(map(sub, count(), map({}.setdefault, s, count(1))))
