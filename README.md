@@ -59,6 +59,7 @@ Categories:
 | 350  | Intersection of Two Arrays II  | Deduct from Counter, T&S: O(n+m)                               |
 | 367  | Valid Perfect Square           | n to the power of 0.5 mod 1 == 0, T&S: O(1)                    |
 | 374  | Guess Number Higher or Lower   | Binary Search, T: O(log n), S: O(1)                            |
+| 389  | Find the Difference            | Counter, Difference, or XOR, T: O(n), S: O(1), Counter S: O(n) |
 | 392  | Is Subsequence                 | Two pointers and/or iterator, T: O(t), S: O(1)                 |
 | 401  | Binary Watch                   | Collect One Bits List Comprehension / Backtracking, T&S: O(1)  |
 | 409  | Longest Palindrome             | Use Counter to count number of odds or pairs, T&S: O(n)        |
