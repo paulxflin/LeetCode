@@ -41,6 +41,7 @@ Categories:
 | 160  | Intersect of Two Linked Lists  | Two pointers two pass, O(n) time, O(1) space                   |
 | 167  | Two Sum II - Input Arr Sorted  | Two pointer, T: O(n), S: O(1)                                  |
 | 169  | Majority Element               | Boyer-Moore Voting Algorithm, O(n) time, O(1) space            |
+| 171  | Excel Sheet Column Number      | Convery A-Z to 1-26 with 26 base mult, O(n) time, O(1) space   |
 | 202  | Happy Number                   | Use set to memorise seen numbers, T: O(loops \* dig), S: O(1)  |
 | 203  | Remove Linked List Elements    | Single Pointer, Dummy Head, T: O(n), S: O(1)                   |
 | 206  | Reverse Linked List            | Iteratively update the node, T: O(n), S: O(1)                  |
