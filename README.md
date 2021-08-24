@@ -15,6 +15,7 @@ Categories:
 | #    | Title                          | Basic idea (One line)                                          |
 | ---- | ------------------------------ | -------------------------------------------------------------- |
 | 1    | Two Sum                        | Dict (num, index), O(n) time, O(n) space                       |
+| 13   | Roman to Integer               | Subtract if smaller number before bigger, T: O(n), S: O(1)     |
 | 21   | Merge Two Sorted Lists         | Iterative (compare and append to list), O(n) time, O(1) space. |
 | 26   | Remove Dups from Sorted Array  | Two Pointers place uniques one after another, T: O(n), S: O(1) |
 | 27   | Remove Element                 | Two pointers meet in middle, T: O(n), S: O(1)                  |
