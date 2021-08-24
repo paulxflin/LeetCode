@@ -217,3 +217,4 @@ Categories:
 | 1802 | Max Value at a Given Ind in an Array   | Binary Search, sum arith seq, T: O(log s), S: O(1) |
 | 1864 | Min Swaps for alternating Binary Str   | Count Wrong Positions, T: O(n), S: O(1)            |
 | 1877 | Minimize Maximum Pair Sum in Array     | Sort, Min + Max, T: O(n log n), S: O(n)            |
+| 1981 | Min Diff Between Target & Chosen Elems | Set DP + look around, T: O(t * n^2), S: O(t)       |
