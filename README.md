@@ -111,6 +111,7 @@ Categories:
 | 925  | Long Pressed Name              | Two Pointers to match all letters in name, T: O(n), S: O(1)    |
 | 929  | Unique Email Addresses         | Set + Find/Split local name for slicing, T&S: O(n)             |
 | 933  | Number of Recent Calls         | Queue, O(1) time and space due to problem constraints          |
+| 937  | Reorder Data in Log Files      | Separate into two lists, sort letters, T: O(n log n), S: O(n)  |
 | 938  | Range Sum of BST               | DFS if parent strictly in range, O(n) time, O(h) space         |
 | 942  | DI String Match                | Ad-Hoc high and low solution, T&S: O(n)                        |
 | 944  | Delete Columns to Make Sorted  | Delete Row function with index access, T: O(n\*m), S: O(1)     |
