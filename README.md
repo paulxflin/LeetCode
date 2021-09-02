@@ -194,6 +194,7 @@ Categories:
 | 1935 | Max Num of Words You Can Type  | Broken letter set, add words any letters in it, T&S: O(n)      |
 | 1941 | Check All Chars Occurs Equally | Length of Counter(s).values() set, T&S: O(n)                   |
 | 1945 | Sum of Digs of Str after Conv  | Iterate chars in string and sum each transform, T&S: O(n)      |
+| 1957 | Delete Chars to Make Fancy Str | Join an ans array and keep track of conseq count, T&S: O(n)    |
 | 1967 | Strs That are Substrs in Word  | Sum instances pattern is in word, T: O(n), S: O(1)             |
 | 1974 | Min Time to Type Word Special  | Find min dist between consecutive letters, T: O(n) S: O(1)     |
 
