@@ -48,7 +48,7 @@ Categories:
 | 206  | Reverse Linked List            | Iteratively update the node, T: O(n), S: O(1)                  |
 | 234  | Palindrome Linked List         | Reversed First Half == Second Half, T: O(n), S: O(1)           |
 | 237  | Delete Node in a Linked List   | Set cur.val as next.val, cur.next = next.next, T&S: O(1)       |
-| 242  | Valid Anagram                  | Use a Counter or Two Dicts and == comparator, T&S: O(n)        | 
+| 242  | Valid Anagram                  | Use a Counter or Two Dicts and == comparator, T&S: O(n)        |
 | 257  | Binary Tree Paths              | Recursive DFS adding Child Nodes, T&S: O(n)                    |
 | 278  | First Bad Version              | Binary Search with Bisect + Wrapper, T: O(log n), S: O(1)      |
 | 283  | Move Zeroes                    | Swap all non-zeros into final positions, T: O(n), S: O(1)      |
@@ -70,6 +70,7 @@ Categories:
 | 441  | Arranging Coins                | Express with Maths, Complete the Square, T&S: O(1)             |
 | 455  | Assign Cookies                 | Least Greedy Child first, T: O(g log g + s log s) S: O(g + s)  |
 | 500  | Keyboard Row                   | Set of both lines and lowercase word, T&S: O(n)                |
+| 520  | Detect Capital                 | Use inbuilts isupper, islower, istitle, T: O(n), S: O(1)       |
 | 521  | Longest Uncommon Subsequence I | Same -> -1, o/w return longer string, T: (min(x, y)), S: O(1)  |
 | 541  | Reverse String II              | Slice Assignment with slice reverse, T&S: O(n)                 |
 | 557  | Reverse Words in a String III  | Split Reverse Join or Double Reverse, T&S: O(n)                |
@@ -132,7 +133,7 @@ Categories:
 | 1108 | Defanging an IP Address        | Use Python .replace('.', '[.]'), O(n\*m) time, O(n) space      |
 | 1137 | N-th Tribonacci Number         | Bottom Up DP with modulo, T: O(n), S: O(1)                     |
 | 1160 | Find Words Formable by Chars   | Create a Counter, and compare items, T: O(n), S: O(1)          |
-| 1189 | Maximum Number of Balloons     | Counter with Int Div of each char, T&S: O(n)                   | 
+| 1189 | Maximum Number of Balloons     | Counter with Int Div of each char, T&S: O(n)                   |
 | 1217 | Minimum Cost to Move Chips     | Count odds and evens, and take the minimum, T: O(n), S: O(1)   |
 | 1221 | Split a Str in Balanced Strs   | Increment Res when num L - num R = 0, O(n) time, O(1) space    |
 | 1266 | Min Time Visiting All Points   | Sum the max abs difference between points, T: O(n), S: O(1)    |
@@ -149,7 +150,7 @@ Categories:
 | 1374 | Gen Strs with Odd Count Chars  | Check if odd, use asterisk operator to gen string, T&S: O(n)   |
 | 1385 | Find the Dist Between Two Arrs | Sort arr2 + Binary Search, T: O((m + n) log m), S: O(n)        |
 | 1403 | Min Non-increasing Subseq      | Reverse Sort + Sum Target + Slicing, T: O(n log n), S: O(n)    |
-| 1408 | String Matching in an Array    | Build Sentence + string.Count, T: O(w * s), S: O(w)            |
+| 1408 | String Matching in an Array    | Build Sentence + string.Count, T: O(w \* s), S: O(w)           |
 | 1417 | Reformat The String            | Abs(digits-letters) <= 1, start with longer list, T&S: O(n)    |
 | 1422 | Max Score After Splitting Str  | Find largest net value, then add initial, T: O(n), S: O(1)     |
 | 1436 | Destination City               | Difference remaining after inbound-outbound set, T&S: O(n)     |
@@ -208,13 +209,13 @@ Categories:
 | 92   | Reverse Linked List II                 | Iterative in place updates, T: O(n), S: O(1)       |
 | 131  | Palindrome Partitioning                | DFS palindrome backtrack, T: O(n \* 2^n), S: O(n)  |
 | 147  | Insertion Sort List                    | Dummy + Predecessor + Disorder, T: O(n^2), S: O(1) |
-| 173  | Binary Search Tree Iterator            | Generator or Stack, T: O(1), S: O(h) per next call | 
+| 173  | Binary Search Tree Iterator            | Generator or Stack, T: O(1), S: O(h) per next call |
 | 306  | Additive Number                        | Find all Pairs and test seq, T: O(n^2), S: O(n)    |
 | 464  | Can I Win                              | Top Down DP, choices as tuple key, T&S: O(2^n)     |
 | 676  | Implement Magic Dictionary             | Diff = 1 for List/dict, Candidates, T&S: O(n \* s) |
 | 720  | Longest Word in Dictionary             | Sort + Set, T: O(n log n), S: O(n)                 |
 | 787  | Cheapest Flights Within K Stops        | BFS with two dicts, T&S: O(n^k + n^2)              |
-| 840  | Magic Squares In Grid                  | Brute Force or 5 and 43816729, T: O(m*n), S: O(1)  |
+| 840  | Magic Squares In Grid                  | Brute Force or 5 and 43816729, T: O(m\*n), S: O(1) |
 | 849  | Maximize Distance to Closest Person    | Count spaces using prev pointer, T: O(n), S: O(1)  |
 | 955  | Delete Columns to Make Sorted II       | Track unsorted strs using set, T: O(n\*m), S: O(n) |
 | 1024 | Video Stitching                        | Two pass defaultdict for furthest end, T&S: O(n)   |
@@ -222,10 +223,10 @@ Categories:
 | 1109 | Corporate Flight Bookings              | Sweep Lines, optimise overlaps, T: O(b+n), S: O(n) |
 | 1507 | Reformat Date                          | Dict for months + slice day, T&S: O(1)             |
 | 1552 | Magnetic Force Between Two Balls       | Binary Search, T: O(n \* (log n + log m)), S: O(n) |
-| 1664 | Ways to Make a Fair Array              | Two sum pairs for even and odd, T: O(n), S: O(1)   | 
+| 1664 | Ways to Make a Fair Array              | Two sum pairs for even and odd, T: O(n), S: O(1)   |
 | 1727 | Largest Submatrix With Rearrangements  | Sum column stacks, T: O(n \* m log m), S: O(1)     |
 | 1764 | Form Arr Concat Subarrs of Another Arr | All groups == slice of nums l->r, T: O(n), S: O(1) |
 | 1802 | Max Value at a Given Ind in an Array   | Binary Search, sum arith seq, T: O(log s), S: O(1) |
 | 1864 | Min Swaps for alternating Binary Str   | Count Wrong Positions, T: O(n), S: O(1)            |
 | 1877 | Minimize Maximum Pair Sum in Array     | Sort, Min + Max, T: O(n log n), S: O(n)            |
-| 1981 | Min Diff Between Target & Chosen Elems | Set DP + look around, T: O(t * n^2), S: O(t)       |
+| 1981 | Min Diff Between Target & Chosen Elems | Set DP + look around, T: O(t \* n^2), S: O(t)      |
