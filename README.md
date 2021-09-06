@@ -71,6 +71,7 @@ Categories:
 | 441  | Arranging Coins                | Express with Maths, Complete the Square, T&S: O(1)             |
 | 455  | Assign Cookies                 | Least Greedy Child first, T: O(g log g + s log s) S: O(g + s)  |
 | 500  | Keyboard Row                   | Set of both lines and lowercase word, T&S: O(n)                |
+| 509  | Fibonacci Number               | Use two variables and a for loop, T: O(n), S: O(1)             |
 | 520  | Detect Capital                 | Use inbuilts isupper, islower, istitle, T: O(n), S: O(1)       |
 | 521  | Longest Uncommon Subsequence I | Same -> -1, o/w return longer string, T: (min(x, y)), S: O(1)  |
 | 541  | Reverse String II              | Slice Assignment with slice reverse, T&S: O(n)                 |
