@@ -35,6 +35,7 @@ Categories:
 | 111  | Minimum Depth of Binary Tree   | BFS/DFS, BFS in most cases is better than DFS, T&S: O(n)       |
 | 112  | Path Sum                       | Recursively check for path at leaf, T&S: O(n)                  |
 | 118  | Pascal's Triangle              | Generate next row based on previous row, T&S: O(n)             |
+| 119  | Pascal's Triangle II           | Store previous row to find next row, T: O(n^2), S: O(n)        |
 | 121  | Best Time to Buy & Sell Stock  | Track min and profit / Kandane's Algorithm, T: O(n), S: O(1)   |
 | 122  | Best Time to Buy/Sell Stock II | Buy at valleys, sell at peaks, T: O(n), S: O(1)                |
 | 125  | Valid Palindrome               | Two Pointers in place check for isalnum(), T: O(n), S: O(1)    |
