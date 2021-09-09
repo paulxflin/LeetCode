@@ -173,6 +173,7 @@ Categories:
 | 1614 | Max Nesting Depth of Parens    | Count Max Open Braces with left-right scan, T: O(n), S: O(1)   |
 | 1624 | Largest Substr in 2 Eq Chars   | Subtract last index from first using a dict, T&S: O(n)         |
 | 1629 | Slowest Key                    | One pass to compute the longest dur, T: O(n), S: O(1)          |
+| 1646 | Get Maximum in Generated Array | Multiply by mod to differentiate odd/even, T&S: O(n)           |
 | 1662 | Check If Two String Arr are Eq | Use generator to compare each char, T: O(min(n, m)), S: O(1)   |
 | 1678 | Goal Parser Interpretation     | Inbuilt string replacement or regex sub, T&S: O(n)             |
 | 1684 | Count Num of Consistent Strs   | Word is subset of accepted or sum-all, T: O(NW), S: O(1)       |
