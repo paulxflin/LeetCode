@@ -23,3 +23,11 @@ class Solution:
             a = b
             b = c                # slide window
         return min(b, a)  # minimal cost starting at first or second step
+
+    # Bottom Up Solution Optimised (Accepted), O(n) time, O(1) space
+    def minCostClimbingStairs(self, cost: List[int]) -> int:
+        a = b = c = 0
+        for i in range(len(cost)):
+            c = min(a, b) + cost[i]
+            a, b = b, c
+        return min(a, b)
