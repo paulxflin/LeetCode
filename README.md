@@ -175,6 +175,7 @@ Categories:
 | 1629 | Slowest Key                    | One pass to compute the longest dur, T: O(n), S: O(1)          |
 | 1646 | Get Maximum in Generated Array | Multiply by mod to differentiate odd/even, T&S: O(n)           |
 | 1662 | Check If Two String Arr are Eq | Use generator to compare each char, T: O(min(n, m)), S: O(1)   |
+| 1672 | Richest Customer Wealth        | One Liner Max of sum of rows, T: O(m \* n), S: O(m)            |
 | 1678 | Goal Parser Interpretation     | Inbuilt string replacement or regex sub, T&S: O(n)             |
 | 1684 | Count Num of Consistent Strs   | Word is subset of accepted or sum-all, T: O(NW), S: O(1)       |
 | 1688 | Count of Matches in Tournament | n-1 matches, T&S: O(1). Even/odd if/else: T: O(log n), S: O(1) |
