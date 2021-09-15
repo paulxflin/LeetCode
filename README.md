@@ -160,6 +160,7 @@ Categories:
 | 1436 | Destination City               | Difference remaining after inbound-outbound set, T&S: O(n)     |
 | 1446 | Consecutive Characters         | One pass count consecutive chars, T: O(n), S: O(1)             |
 | 1455 | Check If Word Occurs As Prefix | Split + Slice / string.startswith(), T&S: O(n)                 |
+| 1470 | Shuffle the Array              | Use zip for two split arrays, or manually append, T&S: O(n)    |
 | 1480 | Running Sum of 1d Array        | Use Prior Element, sum in place, T: O(n), S: O(1)              |
 | 1496 | Path Crossing                  | Tuple Coord + Seen Set + Map Update, T&S: O(n)                 |
 | 1512 | Number of Good Pairs           | Hash + Math n \* (n-1) / 2, O(n) time, O(n) space              |
