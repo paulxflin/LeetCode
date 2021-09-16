@@ -157,6 +157,7 @@ Categories:
 | 1408 | String Matching in an Array    | Build Sentence + string.Count, T: O(w \* s), S: O(w)           |
 | 1417 | Reformat The String            | Abs(digits-letters) <= 1, start with longer list, T&S: O(n)    |
 | 1422 | Max Score After Splitting Str  | Find largest net value, then add initial, T: O(n), S: O(1)     |
+| 1431 | Kids With the Most Candies     | Subtract extraCandies from max, compare each, T&S: O(n)        |
 | 1436 | Destination City               | Difference remaining after inbound-outbound set, T&S: O(n)     |
 | 1446 | Consecutive Characters         | One pass count consecutive chars, T: O(n), S: O(1)             |
 | 1455 | Check If Word Occurs As Prefix | Split + Slice / string.startswith(), T&S: O(n)                 |
