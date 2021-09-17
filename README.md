@@ -150,6 +150,7 @@ Categories:
 | 1342 | Num Steps to Reduce Num to 0   | Binary Representation, O(bits) space and time                  |
 | 1346 | Check if N and 2N Exist        | Counter + Accept if there are 2 zeros, T&S: O(n)               |
 | 1351 | Count Negative Numbers in SM   | Negative Values form Staircase, O(n + m) time, O(n) space      |
+| 1365 | How Many Nums Smaller than Cur | Smallest Index of sorted is equivalent, T: O(n log n), S: O(n) |
 | 1370 | Increasing Decreasing String   | Counter with asc boolean flag, O(n) time and space             |
 | 1374 | Gen Strs with Odd Count Chars  | Check if odd, use asterisk operator to gen string, T&S: O(n)   |
 | 1385 | Find the Dist Between Two Arrs | Sort arr2 + Binary Search, T: O((m + n) log m), S: O(n)        |
