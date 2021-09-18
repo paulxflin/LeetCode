@@ -184,6 +184,7 @@ Categories:
 | 1688 | Count of Matches in Tournament | n-1 matches, T&S: O(1). Even/odd if/else: T: O(log n), S: O(1) |
 | 1694 | Reformat Phone Number          | Use string.translate() to strip or re.sub(): T&S: O(n)         |
 | 1704 | Determine if Halves Are Alike  | Check if letters are in vowel set, T: O(n), S: O(1)            |
+| 1720 | Decode XORed Array             | XOR is the inverse of XOR, T: O(n), S: O(1)                    |
 | 1710 | Maximum Units on a Truck       | Reverse sort by units per box + Greedy, T: O(n log n), S: O(n) |
 | 1758 | Min change to Make Alt Bin Str | Count num diff from expectation take min, T: O(n), S: O(1)     |
 | 1763 | Longest Nice Substring         | Recursive Set + Swapcase, T: O(n^2), S: O(n)                   |
