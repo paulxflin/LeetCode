@@ -208,6 +208,7 @@ Categories:
 | 1880 | Check Word == Sum of Two Words | Use Ord to convert to letter value, cast word to int T&S: O(n) |
 | 1897 | Move Chars to Make Strs Equal  | Use a Counter and divide all elems by len(w), T&S: O(n)        |
 | 1903 | Largest Odd Number in String   | Find Rightmost Odd Digit and Slice, T: O(n), S: O(1)           |
+| 1913 | Max Prod Diff Between 2 Pairs  | Find the two largest and smallest, find diff, T: O(n), S: O(1) |
 | 1920 | Build Array from Permutation   | Use Euclidian Algorithm to transform nums, T: O(n), S: O(1)    |
 | 1929 | Concatenation of Array         | Use concatenation or extend, T&S: O(n)                         |
 | 1935 | Max Num of Words You Can Type  | Broken letter set, add words any letters in it, T&S: O(n)      |
