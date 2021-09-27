@@ -170,6 +170,7 @@ Categories:
 | 1496 | Path Crossing                  | Tuple Coord + Seen Set + Map Update, T&S: O(n)                 |
 | 1512 | Number of Good Pairs           | Hash + Math n \* (n-1) / 2, O(n) time, O(n) space              |
 | 1528 | Shuffle String                 | Create list, insert s with indicies, O(n) time and space       |
+| 1534 | Count Good Triplets            | Nested for-loops for generator expression, T: O(n^3), S: O(1)  |
 | 1539 | Kth Missing Positive Number    | Binary Search non-missing vals in res, T: O(log n), S: O(1)    |
 | 1544 | Make The String Great          | Use a stack to conditionally add and pop + swapcase, T&S: O(n) |
 | 1556 | Thousand Separator             | Join chunks of 3 together in list with . separator, T&S: O(n)  |
