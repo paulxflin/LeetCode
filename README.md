@@ -220,6 +220,7 @@ Categories:
 | 1967 | Strs That are Substrs in Word  | Sum instances pattern is in word, T: O(n), S: O(1)             |
 | 1974 | Min Time to Type Word Special  | Find min dist between consecutive letters, T: O(n) S: O(1)     |
 | 1979 | Find GCD of Array              | Use Euclidean Algorithm, T: O(n + log(min(a,b))), S: O(1)      |
+| 2000 | Reverse Prefix of Word         | Find index and reverse slice, T&S: O(n)                        |
 | 2006 | Count Pairs With Abs Diff K    | Dictionary to store num prior seen vals, T&S: O(n)             |
 
 ## Medium
