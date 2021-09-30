@@ -231,6 +231,7 @@ Categories:
 | 64   | Minimum Path Sum                       | Grid Reduction at square, T: O(m\*n), S: O(1)      |
 | 80   | Remove Duplicates from Sorted Array II | Set first n valid values, T: O(n), S: O(1)         |
 | 92   | Reverse Linked List II                 | Iterative in place updates, T: O(n), S: O(1)       |
+| 120  | Triangle                               | Top Down or Bottom Up Min Row, T: O(n^2), S: O(1)  |
 | 131  | Palindrome Partitioning                | DFS palindrome backtrack, T: O(n \* 2^n), S: O(n)  |
 | 147  | Insertion Sort List                    | Dummy + Predecessor + Disorder, T: O(n^2), S: O(1) |
 | 173  | Binary Search Tree Iterator            | Generator or Stack, T: O(1), S: O(h) per next call |
