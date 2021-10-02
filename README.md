@@ -53,6 +53,7 @@ Categories:
 | 237  | Delete Node in a Linked List   | Set cur.val as next.val, cur.next = next.next, T&S: O(1)       |
 | 242  | Valid Anagram                  | Use a Counter or Two Dicts and == comparator, T&S: O(n)        |
 | 257  | Binary Tree Paths              | Recursive DFS adding Child Nodes, T&S: O(n)                    |
+| 268  | Missing Number                 | Calculate expected sum and subtract sum nums, T: O(n), S: O(1) |
 | 278  | First Bad Version              | Binary Search with Bisect + Wrapper, T: O(log n), S: O(1)      |
 | 283  | Move Zeroes                    | Swap all non-zeros into final positions, T: O(n), S: O(1)      |
 | 292  | Nim Game                       | Win if n % 4 != 0, O(n) time and space.                        |
