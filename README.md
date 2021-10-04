@@ -41,6 +41,7 @@ Categories:
 | 125  | Valid Palindrome               | Two Pointers in place check for isalnum(), T: O(n), S: O(1)    |
 | 136  | Single Number                  | Counter (Hash) or Math, O(n) time, O(n) space. XOR O(1) space! |
 | 141  | Linked List Cycle              | Tortoise and Hare, O(n) time, O(1) space                       |
+| 155  | Min Stack                      | Store min for every node, O(1) push, pop, top, getMin          |
 | 160  | Intersect of Two Linked Lists  | Two pointers two pass, O(n) time, O(1) space                   |
 | 167  | Two Sum II - Input Arr Sorted  | Two pointer, T: O(n), S: O(1)                                  |
 | 169  | Majority Element               | Boyer-Moore Voting Algorithm, O(n) time, O(1) space            |
