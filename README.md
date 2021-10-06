@@ -61,6 +61,7 @@ Categories:
 | 283  | Move Zeroes                    | Swap all non-zeros into final positions, T: O(n), S: O(1)      |
 | 292  | Nim Game                       | Win if n % 4 != 0, O(n) time and space.                        |
 | 303  | Range Sum Query - Immutable    | Memorisation of Accumulations, T&S: O(n)                       |
+| 326  | Power of Three                 | Loop Divide, T: O(log n), Modulo largest power of 3, T&S: O(1) |
 | 338  | Counting Bits                  | DP: ans[i] = ans[i >> 1] + (i & 1), T&S: O(n)                  |
 | 344  | Reverse String                 | Library in place reverse(), T: O(n), S: O(1)                   |
 | 345  | Reverse Vowels of a String     | Two Pointer Swap or Regex Findall and Sub, T&S: O(n)           |
