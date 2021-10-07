@@ -22,6 +22,7 @@ Categories:
 | 28   | Implement strStr()             | Lib find() or brute force, T: O(n\*m), S: O(1). Advanced: KMP  |
 | 35   | Search Insert Position         | Bisect Binary Search, T: O(log n), S: O(1)                     |
 | 53   | Maximum Subarray               | DP/Kandane's T: O(n), S: O(1). D&C T: O(n), S: O(log n)        |
+| 66   | Plus One                       | Convert to int, T&S: O(n), Carry from right to left, S: O(1)   |
 | 69   | Sqrt(x)                        | Binary Search with multiplication, T: O(log n), S: O(n)        |
 | 70   | Climbing Stairs                | Optimised DP (Essentially Fibonacci), T: O(n), S: O(1)         |
 | 83   | Remove Dups from Sorted List   | Set cur.next to next elem, increment o/w, T: O(n), S: O(1)     |
