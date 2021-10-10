@@ -237,6 +237,7 @@ Categories:
 | #    | Title                                  | Basic idea (One line)                              |
 | ---- | -------------------------------------- | -------------------------------------------------- |
 | 33   | Search in Rotated Sorted Array         | Modified Binary Search, T: O(log n), S: O(1)       |
+| 46   | Permutations                           | Use Itertools or DFS, T: O(n!), S: O(n! \* n)      |
 | 64   | Minimum Path Sum                       | Grid Reduction at square, T: O(m\*n), S: O(1)      |
 | 80   | Remove Duplicates from Sorted Array II | Set first n valid values, T: O(n), S: O(1)         |
 | 92   | Reverse Linked List II                 | Iterative in place updates, T: O(n), S: O(1)       |
