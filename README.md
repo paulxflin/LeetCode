@@ -246,6 +246,7 @@ Categories:
 | 147  | Insertion Sort List                    | Dummy + Predecessor + Disorder, T: O(n^2), S: O(1) |
 | 173  | Binary Search Tree Iterator            | Generator or Stack, T: O(1), S: O(h) per next call |
 | 306  | Additive Number                        | Find all Pairs and test seq, T: O(n^2), S: O(n)    |
+| 347  | Top K Frequent Elements                | Counter most common O(n log k) or bucket T&S: O(n) |
 | 464  | Can I Win                              | Top Down DP, choices as tuple key, T&S: O(2^n)     |
 | 676  | Implement Magic Dictionary             | Diff = 1 for List/dict, Candidates, T&S: O(n \* s) |
 | 720  | Longest Word in Dictionary             | Sort + Set, T: O(n log n), S: O(n)                 |
