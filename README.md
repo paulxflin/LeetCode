@@ -90,6 +90,7 @@ Categories:
 | 559  | Maximum Depth of N-ary Tree    | DFS, O(n) time, O(n) space. BFS, O(n) time, O(n) space         |
 | 561  | Array Partition I              | Sum + Stepped Slicing + Sort, T: O(n log n), S: O(n)           |
 | 563  | Binary Tree Tilt               | Single Function Sum, Tilt, Update Res (Global), T&S: O(n)      |
+| 589  | N-ary Tree Preorder Traversal  | Recursive Traversal or Iterative with Stack, T&S: O(n)         |
 | 590  | N-ary Tree Postorder Traversal | Recursive Traversal or Pre-order R-L reverse, T&S: O(n)        |
 | 605  | Can Place Flowers              | Greedily check 3 consecutive plots are empty, T: O(n), S: O(1) |
 | 606  | Construct Str from Binary Tree | Conditionally expand left and right recursively, T&S: O(n)     |
