@@ -132,6 +132,7 @@ Categories:
 | 938  | Range Sum of BST               | DFS if parent strictly in range, O(n) time, O(h) space         |
 | 942  | DI String Match                | Ad-Hoc high and low solution, T&S: O(n)                        |
 | 944  | Delete Columns to Make Sorted  | Delete Row function with index access, T: O(n\*m), S: O(1)     |
+| 961  | N-Repeated Elem in Size 2N Arr | Find first duplicate with set or use math sums, T&S: O(n)      |
 | 976  | Largest Perimeter Triangle     | Reverse Sort and Try Biggest Trio, T: O(n log n), S: O(n)      |
 | 977  | Squares of a Sorted Array      | Two Pointers at either ends, O(n) time, O(n) space             |
 | 993  | Cousins in Binary Tree         | Tuple with BFS, T&S: O(n). Tuple with DFS, T: O(n), S: O(h)    |
