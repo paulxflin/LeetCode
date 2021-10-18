@@ -214,6 +214,7 @@ Categories:
 | 1816 | Truncate Sentence              | Split, Slice up to k, Join, T&S: O(n)                          |
 | 1827 | Min Ops to Make Arr Increasing | Greedy using prev and count variables, T: O(n), S: O(1)        |
 | 1832 | Check if Sentence Is Pangram   | Convert Sentence to Set and check length, T&S: O(n)            |
+| 1837 | Sum of Digits in Base K        | Take the modulo and integer divide, T: O(log n), S: O(1)       |
 | 1844 | Replace All Digits with Chars  | Do the shift with Chr() and Ord(), T&S: O(n)                   |
 | 1859 | Sorting the Sentence           | Split, Build String, then Join, T&S: O(n)                      |
 | 1863 | Sum of All Subset XOR Totals   | Backtrack O(2^n) time, O(n) space. Bit O(n) time, O(1) space   |
