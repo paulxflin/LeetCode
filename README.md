@@ -177,6 +177,7 @@ Categories:
 | 1446 | Consecutive Characters         | One pass count consecutive chars, T: O(n), S: O(1)             |
 | 1455 | Check If Word Occurs As Prefix | Split + Slice / string.startswith(), T&S: O(n)                 |
 | 1470 | Shuffle the Array              | Use zip for two split arrays, or manually append, T&S: O(n)    |
+| 1475 | Final Prices with Special Disc | Store indicies in stack, subtract conditionally, T&S: O(n)     |
 | 1480 | Running Sum of 1d Array        | Use Prior Element, sum in place, T: O(n), S: O(1)              |
 | 1486 | XOR Operation in an Array      | XOR using for loop for O(n) time, or pattern match T&S: O(1)   |
 | 1496 | Path Crossing                  | Tuple Coord + Seen Set + Map Update, T&S: O(n)                 |
