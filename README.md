@@ -252,6 +252,7 @@ Categories:
 | 78   | Subsets                                | Itertools, DFS, or Iterative, T&S: O(n \* 2^n)     |
 | 80   | Remove Duplicates from Sorted Array II | Set first n valid values, T: O(n), S: O(1)         |
 | 92   | Reverse Linked List II                 | Iterative in place updates, T: O(n), S: O(1)       |
+| 116  | Populating Next Right Ptr in Each Node | Traverse each level with next, T: O(n), S: O(1)    |
 | 120  | Triangle                               | Top Down or Bottom Up Min Row, T: O(n^2), S: O(1)  |
 | 131  | Palindrome Partitioning                | DFS palindrome backtrack, T: O(n \* 2^n), S: O(n)  |
 | 147  | Insertion Sort List                    | Dummy + Predecessor + Disorder, T: O(n^2), S: O(1) |
