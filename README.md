@@ -240,6 +240,7 @@ Categories:
 | 1979 | Find GCD of Array              | Use Euclidean Algorithm, T: O(n + log(min(a,b))), S: O(1)      |
 | 2000 | Reverse Prefix of Word         | Find index and reverse slice, T&S: O(n)                        |
 | 2006 | Count Pairs With Abs Diff K    | Dictionary to store num prior seen vals, T&S: O(n)             |
+| 2011 | Final Value of Var After Ops   | If-Else on index 1, or sum + generator, T: O(n), S: O(1)       |
 | 2042 | Check if Nums Asc in Sentence  | Split s, convert numeric words to int, check prev, T&S: O(n)   |
 
 ## Medium
