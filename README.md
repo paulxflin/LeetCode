@@ -208,6 +208,7 @@ Categories:
 | 1704 | Determine if Halves Are Alike  | Check if letters are in vowel set, T: O(n), S: O(1)            |
 | 1720 | Decode XORed Array             | XOR is the inverse of XOR, T: O(n), S: O(1)                    |
 | 1710 | Maximum Units on a Truck       | Reverse sort by units per box + Greedy, T: O(n log n), S: O(n) |
+| 1725 | Num Rects That Can Form The LS | Track max side, increase/reset count, T: O(n), S: O(1)         |
 | 1732 | Find the Highest Altitude      | Track the Max Altitude going through array, T: O(n), S: O(1)   |
 | 1748 | Sum of Unique Elements         | Counter of nums and only add key if value is 1, T&S: O(n)      |
 | 1758 | Min change to Make Alt Bin Str | Count num diff from expectation take min, T: O(n), S: O(1)     |
