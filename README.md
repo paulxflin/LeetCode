@@ -154,6 +154,7 @@ Categories:
 | 1189 | Maximum Number of Balloons     | Counter with Int Div of each char, T&S: O(n)                   |
 | 1217 | Minimum Cost to Move Chips     | Count odds and evens, and take the minimum, T: O(n), S: O(1)   |
 | 1221 | Split a Str in Balanced Strs   | Increment Res when num L - num R = 0, O(n) time, O(1) space    |
+| 1252 | Cells with Odd Val in a Matrix | Odd Rows and Cols with XOR, T: O(n + m + L), S: O(m + n)       |
 | 1266 | Min Time Visiting All Points   | Sum the max abs difference between points, T: O(n), S: O(1)    |
 | 1281 | Product - Sum of Digits of Int | Map & Reduce, T&S: O(log n). Mod & Div, T: O(log n), S: O(1)   |
 | 1290 | Convert Binary to Int in LL    | Bit Shift Left and Bitwise Or, T: O(n), S: O(1)                |
