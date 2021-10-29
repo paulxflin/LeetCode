@@ -191,6 +191,7 @@ Categories:
 | 1539 | Kth Missing Positive Number    | Binary Search non-missing vals in res, T: O(log n), S: O(1)    |
 | 1544 | Make The String Great          | Use a stack to conditionally add and pop + swapcase, T&S: O(n) |
 | 1556 | Thousand Separator             | Join chunks of 3 together in list with . separator, T&S: O(n)  |
+| 1572 | Matrix Diagonal Sum            | Sum both diagonals and remove overlap, T: O(n), S: O(1)        |
 | 1588 | Sum of All Odd Length Subarrs  | Consider the contribution of each elem, T: O(n), S: O(1)       |
 | 1598 | Crawler Log Folder             | Find depth from main, use max or if at main level, T&S: O(n)   |
 | 1603 | Design Parking System          | Array, Instance Var, or hashmap for spaces, T&S: O(1)          |
