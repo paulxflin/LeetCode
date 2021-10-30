@@ -158,6 +158,7 @@ Categories:
 | 1266 | Min Time Visiting All Points   | Sum the max abs difference between points, T: O(n), S: O(1)    |
 | 1281 | Product - Sum of Digits of Int | Map & Reduce, T&S: O(log n). Mod & Div, T: O(log n), S: O(1)   |
 | 1290 | Convert Binary to Int in LL    | Bit Shift Left and Bitwise Or, T: O(n), S: O(1)                |
+| 1295 | Find Nums with Even Num Digits | Find digits with integer division, T: O(n\*d), S: O(1)         |
 | 1299 | Replace Elem with Greatest R   | Get max and replace right to left, T: O(n), S: O(1)            |
 | 1309 | Decrypt Str Alpha to Int Map   | Chr + Ord + Regex/Iterative + Deque/Listcomp, T&S: O(n)        |
 | 1313 | Decomp Run-Length Encoded List | Traverse array in pairs and use for loop, T&S: O(n)            |
