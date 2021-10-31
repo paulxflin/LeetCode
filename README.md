@@ -248,6 +248,7 @@ Categories:
 | 2011 | Final Value of Var After Ops   | If-Else on index 1, or sum + generator, T: O(n), S: O(1)       |
 | 2037 | Min Num Moves to Seat Everyone | Sort and sum abs diff of elements, T: O(n log n), S: O(n)      |
 | 2042 | Check if Nums Asc in Sentence  | Split s, convert numeric words to int, check prev, T&S: O(n)   |
+| 2057 | Smallest Index With Equal Val  | Enumerate check in for loop and return first, T: O(n), S: O(1) |
 
 ## Medium
 
