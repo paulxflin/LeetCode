@@ -95,6 +95,7 @@ Categories:
 | 590  | N-ary Tree Postorder Traversal | Recursive Traversal or Pre-order R-L reverse, T&S: O(n)        |
 | 605  | Can Place Flowers              | Greedily check 3 consecutive plots are empty, T: O(n), S: O(1) |
 | 606  | Construct Str from Binary Tree | Conditionally expand left and right recursively, T&S: O(n)     |
+| 617  | Merge Two Binary Trees         | Recursively add or chose one branch, T&S: O(m + n)             |
 | 653  | Two Sum IV - Input is a BST    | DFS or BFS with adding and lookup using a set, T&S: O(n)       |
 | 657  | Robot Return to Origin         | Track x and y while scanning through moves, T: O(n), S: O(1)   |
 | 680  | Valid Palindrome II            | Two Pointers, check both cases l != r, T&S: O(n)               |
