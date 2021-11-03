@@ -181,6 +181,7 @@ Categories:
 | 1431 | Kids With the Most Candies     | Subtract extraCandies from max, compare each, T&S: O(n)        |
 | 1436 | Destination City               | Difference remaining after inbound-outbound set, T&S: O(n)     |
 | 1446 | Consecutive Characters         | One pass count consecutive chars, T: O(n), S: O(1)             |
+| 1450 | Num Students doing Homework    | Iterate through each element and compare, T: O(n), S: O(1)     |
 | 1455 | Check If Word Occurs As Prefix | Split + Slice / string.startswith(), T&S: O(n)                 |
 | 1464 | Max Prod of 2 Elems in an Arr  | Keep track of Max 2 elements in one pass, T: O(n), S: O(1)     |
 | 1470 | Shuffle the Array              | Use zip for two split arrays, or manually append, T&S: O(n)    |
