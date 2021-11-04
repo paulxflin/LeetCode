@@ -161,6 +161,7 @@ Categories:
 | 1290 | Convert Binary to Int in LL    | Bit Shift Left and Bitwise Or, T: O(n), S: O(1)                |
 | 1295 | Find Nums with Even Num Digits | Find digits with integer division, T: O(n\*d), S: O(1)         |
 | 1299 | Replace Elem with Greatest R   | Get max and replace right to left, T: O(n), S: O(1)            |
+| 1304 | Find N Unique Ints Sum up to 0 | Min step of 2 between -1 and 1, generalise odd/even, T&S: O(n) |
 | 1309 | Decrypt Str Alpha to Int Map   | Chr + Ord + Regex/Iterative + Deque/Listcomp, T&S: O(n)        |
 | 1313 | Decomp Run-Length Encoded List | Traverse array in pairs and use for loop, T&S: O(n)            |
 | 1323 | Maximum 69 Number              | Greedily replace leftmost 6 with 9, T&S: O(n)                  |
