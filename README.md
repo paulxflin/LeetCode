@@ -186,6 +186,7 @@ Categories:
 | 1446 | Consecutive Characters         | One pass count consecutive chars, T: O(n), S: O(1)             |
 | 1450 | Num Students doing Homework    | Iterate through each element and compare, T: O(n), S: O(1)     |
 | 1455 | Check If Word Occurs As Prefix | Split + Slice / string.startswith(), T&S: O(n)                 |
+| 1460 | Make 2 Arrs Eq by Rev Sub-arrs | Put both arrays in a Counter and check for eq, T&S: O(n)       |
 | 1464 | Max Prod of 2 Elems in an Arr  | Keep track of Max 2 elements in one pass, T: O(n), S: O(1)     |
 | 1470 | Shuffle the Array              | Use zip for two split arrays, or manually append, T&S: O(n)    |
 | 1475 | Final Prices with Special Disc | Store indicies in stack, subtract conditionally, T&S: O(n)     |
