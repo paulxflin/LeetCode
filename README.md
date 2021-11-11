@@ -145,6 +145,7 @@ Categories:
 | 1005 | Max Sum Of Array After K Negs  | Sort, Negate Negs,Subtract Min if Odd, T: O(n log n), S: O(n)  |
 | 1013 | Partition Arr into 3 Equal Sum | Each part will have a sum of the total/3, T: O(n), S: O(1)     |
 | 1021 | Remove Outermost Parentheses   | Open = Closed, O(n) time and space                             |
+| 1022 | Sum of Root To Leaf Bin Nums   | Recursive traversal and return 0 on non-leaf case, T&S: O(n)   |
 | 1025 | Divisor Game                   | Even wins, odd loses O(1). Bottom up DP O(n \* sqrt(n)) time   |
 | 1046 | Last Stone Weight              | Heap T: O(nlogn), S: O(n). bisect.insort T: O(n^2), S: O(n)    |
 | 1047 | Remove All Adj Dups In String  | Use stack deleting top and ch dups, join for result, T&S: O(1) |
