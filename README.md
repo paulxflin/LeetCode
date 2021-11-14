@@ -178,6 +178,7 @@ Categories:
 | 1365 | How Many Nums Smaller than Cur | Smallest Index of sorted is equivalent, T: O(n log n), S: O(n) |
 | 1370 | Increasing Decreasing String   | Counter with asc boolean flag, O(n) time and space             |
 | 1374 | Gen Strs with Odd Count Chars  | Check if odd, use asterisk operator to gen string, T&S: O(n)   |
+| 1380 | Lucky Numbers in a Matrix      | Intersection of max_col and min_row, T: O(n \* m), S: O(n + m) |
 | 1385 | Find the Dist Between Two Arrs | Sort arr2 + Binary Search, T: O((m + n) log m), S: O(n)        |
 | 1389 | Create Target Arr in Given Ord | Use mergesort get find final positions, T: O(n log n), S: O(n) |
 | 1403 | Min Non-increasing Subseq      | Reverse Sort + Sum Target + Slicing, T: O(n log n), S: O(n)    |
