@@ -55,6 +55,7 @@ Categories:
 | 203  | Remove Linked List Elements    | Single Pointer, Dummy Head, T: O(n), S: O(1)                   |
 | 206  | Reverse Linked List            | Iteratively update the node, T: O(n), S: O(1)                  |
 | 217  | Contains Duplicate             | Use Set to store seen values or compare lengths, T&S: O(n)     |
+| 226  | Invert Binary Tree             | Recursively apply to invert to child within swap, T&S: O(n)    |
 | 234  | Palindrome Linked List         | Reversed First Half == Second Half, T: O(n), S: O(1)           |
 | 237  | Delete Node in a Linked List   | Set cur.val as next.val, cur.next = next.next, T&S: O(1)       |
 | 242  | Valid Anagram                  | Use a Counter or Two Dicts and == comparator, T&S: O(n)        |
