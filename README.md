@@ -124,6 +124,7 @@ Categories:
 | 860  | Lemonade Change                | Greedy Simulation, T: O(n), S: O(1)                            |
 | 872  | Leaf-Similar Trees             | DFS + List Compare, T&S: O(t1 + t2)                            |
 | 876  | Middle of the Linked List      | Two Pointers tortoise and hare, T: O(n), S: O(1)               |
+| 883  | Projection Area of 3D Shapes   | Use sum with Zip and Listcomp or Map, T: O(n), S: O(1)         |
 | 884  | Uncommon Words in 2 Sentences  | Find Words Appearing Once, T&S: O(n)                           |
 | 888  | Fair Candy Swap                | Sums to find diff and Sets, T: O(n + m), S: O(n)               |
 | 897  | Increasing Order Search Tree   | DFS + Dummy, T&S: O(n). DFS + Relinking, T: O(n), S: O(h)      |
