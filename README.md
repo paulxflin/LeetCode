@@ -188,6 +188,7 @@ Categories:
 | 1389 | Create Target Arr in Given Ord | Use mergesort get find final positions, T: O(n log n), S: O(n) |
 | 1403 | Min Non-increasing Subseq      | Reverse Sort + Sum Target + Slicing, T: O(n log n), S: O(n)    |
 | 1408 | String Matching in an Array    | Build Sentence + string.Count, T: O(w \* s), S: O(w)           |
+| 1413 | Min Val to Get Pos Step Sum    | Track running sum with accumulate, T: O(n), S: O(1)            |
 | 1417 | Reformat The String            | Abs(digits-letters) <= 1, start with longer list, T&S: O(n)    |
 | 1422 | Max Score After Splitting Str  | Find largest net value, then add initial, T: O(n), S: O(1)     |
 | 1431 | Kids With the Most Candies     | Subtract extraCandies from max, compare each, T&S: O(n)        |
