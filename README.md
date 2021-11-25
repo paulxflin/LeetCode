@@ -83,6 +83,7 @@ Categories:
 | 441  | Arranging Coins                | Express with Maths, Complete the Square, T&S: O(1)             |
 | 455  | Assign Cookies                 | Least Greedy Child first, T: O(g log g + s log s) S: O(g + s)  |
 | 461  | Hamming Distance               | Take XOR of x and y, and count the number of ones, T&S: O(1)   |
+| 463  | Island Perimeter               | Check adjacent for edge + Short Circuit, T: O(m\*n), S: O(1)   |
 | 496  | Next Greater Element I         | Stack for smaller values, and dict containing ans, T&S: O(n)   |
 | 500  | Keyboard Row                   | Set of both lines and lowercase word, T&S: O(n)                |
 | 509  | Fibonacci Number               | Use two variables and a for loop, T: O(n), S: O(1)             |
