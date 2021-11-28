@@ -276,6 +276,7 @@ Categories:
 | 2068 | Check If Two Str are Almost Eq | Counter arithmetic or use set of chars, T: O(n), S: O(1)       |
 | 2078 | Two Furthest Houses Dif Colors | One of the endpoints must be involved, T: O(n), S: O(1)        |
 | 2085 | Count Common Words With One Oc | Counter for words, iterate either counter, T&S: O(n)           |
+| 2089 | Find Target Inds After Sorting | Count smaller and eq elements, T&S: O(n)                       |
 
 ## Medium
 
