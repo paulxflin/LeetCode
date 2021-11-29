@@ -221,6 +221,7 @@ Categories:
 | 1614 | Max Nesting Depth of Parens    | Count Max Open Braces with left-right scan, T: O(n), S: O(1)   |
 | 1624 | Largest Substr in 2 Eq Chars   | Subtract last index from first using a dict, T&S: O(n)         |
 | 1629 | Slowest Key                    | One pass to compute the longest dur, T: O(n), S: O(1)          |
+| 1636 | Sort Array by Increasing Freq  | Create counter and sort by tuple key, T: O(n log n), S: O(n)   |
 | 1646 | Get Maximum in Generated Array | Multiply by mod to differentiate odd/even, T&S: O(n)           |
 | 1656 | Design an Ordered Stream       | Create a list and move pointer to last None, T&S: O(n) insert  |
 | 1662 | Check If Two String Arr are Eq | Use generator to compare each char, T: O(min(n, m)), S: O(1)   |
