@@ -160,6 +160,7 @@ Categories:
 | 1078 | Occurrences After Bigram       | Check the previous two with index or zip, T&S: O(n)            |
 | 1089 | Duplicate Zeros                | Count Zeroes and Swap backwards, T: O(n), S: O(1)              |
 | 1108 | Defanging an IP Address        | Use Python .replace('.', '[.]'), O(n\*m) time, O(n) space      |
+| 1122 | Relative Sort Array            | Dict of indicies and sort by key, T: O(A log A + B), S: O(A+B) |
 | 1137 | N-th Tribonacci Number         | Bottom Up DP with modulo, T: O(n), S: O(1)                     |
 | 1160 | Find Words Formable by Chars   | Create a Counter, and compare items, T: O(n), S: O(1)          |
 | 1189 | Maximum Number of Balloons     | Counter with Int Div of each char, T&S: O(n)                   |
