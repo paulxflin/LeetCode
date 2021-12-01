@@ -242,6 +242,7 @@ Categories:
 | 1763 | Longest Nice Substring         | Recursive Set + Swapcase, T: O(n^2), S: O(n)                   |
 | 1768 | Merge Strings Alternately      | One Pointer or Python itertools zip_longest, T&S: O(n + m)     |
 | 1773 | Count Items Matching a Rule    | Get Index for Key + Count Matching Items, T: O(n), S: O(1)     |
+| 1779 | Find Nearest Point Same X or Y | One Pass if valid, track min dist and index, T: O(n), S: O(1)  |
 | 1791 | Find Center of Star Graph      | Compare first and second edges for repeated edge, T&S: O(1)    |
 | 1812 | Det Color of Chessboard Square | Even or odd steps from the a1 square, T&S: O(1)                |
 | 1816 | Truncate Sentence              | Split, Slice up to k, Join, T&S: O(n)                          |
