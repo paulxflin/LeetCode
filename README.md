@@ -232,6 +232,7 @@ Categories:
 | 1684 | Count Num of Consistent Strs   | Word is subset of accepted or sum-all, T: O(NW), S: O(1)       |
 | 1688 | Count of Matches in Tournament | n-1 matches, T&S: O(1). Even/odd if/else: T: O(log n), S: O(1) |
 | 1694 | Reformat Phone Number          | Use string.translate() to strip or re.sub(): T&S: O(n)         |
+| 1700 | Num Students Unable to Eat Lun | Stop when nobody wants the top sandwich: T: O(n), S: O(1)      |
 | 1704 | Determine if Halves Are Alike  | Check if letters are in vowel set, T: O(n), S: O(1)            |
 | 1720 | Decode XORed Array             | XOR is the inverse of XOR, T: O(n), S: O(1)                    |
 | 1710 | Maximum Units on a Truck       | Reverse sort by units per box + Greedy, T: O(n log n), S: O(n) |
