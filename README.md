@@ -209,6 +209,7 @@ Categories:
 | 1475 | Final Prices with Special Disc | Store indicies in stack, subtract conditionally, T&S: O(n)     |
 | 1480 | Running Sum of 1d Array        | Use Prior Element, sum in place, T: O(n), S: O(1)              |
 | 1486 | XOR Operation in an Array      | XOR using for loop for O(n) time, or pattern match T&S: O(1)   |
+| 1491 | Average Salary Exclude Min Max | Find sum, max, and min to compute res, T: O(n), S: O(1)        |
 | 1496 | Path Crossing                  | Tuple Coord + Seen Set + Map Update, T&S: O(n)                 |
 | 1502 | Can Make Arith Prog From Seq   | Find expected gap and swap sort to pos, T: O(n log n), S: O(1) |
 | 1512 | Number of Good Pairs           | Hash + Math n \* (n-1) / 2, O(n) time, O(n) space              |
