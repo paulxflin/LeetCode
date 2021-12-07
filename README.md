@@ -251,6 +251,7 @@ Categories:
 | 1791 | Find Center of Star Graph      | Compare first and second edges for repeated edge, T&S: O(1)    |
 | 1812 | Det Color of Chessboard Square | Even or odd steps from the a1 square, T&S: O(1)                |
 | 1816 | Truncate Sentence              | Split, Slice up to k, Join, T&S: O(n)                          |
+| 1822 | Sign of the Product of an Arr  | Change sign if negative, return if 0, T: O(n), S: O(1)         |
 | 1827 | Min Ops to Make Arr Increasing | Greedy using prev and count variables, T: O(n), S: O(1)        |
 | 1832 | Check if Sentence Is Pangram   | Convert Sentence to Set and check length, T&S: O(n)            |
 | 1837 | Sum of Digits in Base K        | Take the modulo and integer divide, T: O(log n), S: O(1)       |
