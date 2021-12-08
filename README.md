@@ -115,6 +115,7 @@ Categories:
 | 744  | Find Smallest Letter > Target  | Binary Search using Bisect, T: O(log n), S: O(1)               |
 | 746  | Min Cost Climbing Stairs       | Bottom Up DP 3 Vars, T: O(n), S: O(1)                          |
 | 748  | Shortest Completing Word       | Filter the License, then Counter Subtraction, T&S: O(n)        |
+| 766  | Toeplitz Matrix                | Check Part of Each Level Slices, T: O(m\*n), S: O(n)           |
 | 771  | Jewels and Stones              | Set of Jewels + Sum Stones in Set, T: O(J+S), S: O(J)          |
 | 783  | Min Dist Between BST Nodes     | In Order Traversal with DFS and cache pred, T: O(n), S: O(h)   |
 | 804  | Unique Morse Code Words        | Set + Ord + List Comprehension, T&S: O(S)                      |
