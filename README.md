@@ -134,6 +134,7 @@ Categories:
 | 888  | Fair Candy Swap                | Sums to find diff and Sets, T: O(n + m), S: O(n)               |
 | 897  | Increasing Order Search Tree   | DFS + Dummy, T&S: O(n). DFS + Relinking, T: O(n), S: O(h)      |
 | 905  | Sort Array By Parity           | Two Pointers In-Place Swap, T: O(n), S: O(1)                   |
+| 908  | Smallest Range I               | Min score is Max - Min - 2k, T: O(n), S: O(1)                  |
 | 917  | Reverse Only Letters           | Two Pointers, One pass, while-if loop, T&S: O(n)               |
 | 922  | Sort Array By Parity II        | Two pointers even and odd swap, T: O(n), S: O(1)               |
 | 925  | Long Pressed Name              | Two Pointers to match all letters in name, T: O(n), S: O(1)    |
