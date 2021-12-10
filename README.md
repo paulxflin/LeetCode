@@ -267,6 +267,7 @@ Categories:
 | 1903 | Largest Odd Number in String   | Find Rightmost Odd Digit and Slice, T: O(n), S: O(1)           |
 | 1913 | Max Prod Diff Between 2 Pairs  | Find the two largest and smallest, find diff, T: O(n), S: O(1) |
 | 1920 | Build Array from Permutation   | Use Euclidian Algorithm to transform nums, T: O(n), S: O(1)    |
+| 1925 | Count Square Sum Triples       | Find c and check if it's whole, T: O(n^2), S: O(1)             |
 | 1929 | Concatenation of Array         | Use concatenation or extend, T&S: O(n)                         |
 | 1935 | Max Num of Words You Can Type  | Broken letter set, add words any letters in it, T&S: O(n)      |
 | 1941 | Check All Chars Occurs Equally | Length of Counter(s).values() set, T&S: O(n)                   |
