@@ -194,6 +194,7 @@ Categories:
 | 1380 | Lucky Numbers in a Matrix      | Intersection of max_col and min_row, T: O(n \* m), S: O(n + m) |
 | 1385 | Find the Dist Between Two Arrs | Sort arr2 + Binary Search, T: O((m + n) log m), S: O(n)        |
 | 1389 | Create Target Arr in Given Ord | Use mergesort get find final positions, T: O(n log n), S: O(n) |
+| 1399 | Count Largest Group            | Sum digits and increment a counter dict, T: O(n), S: O(1)      |
 | 1403 | Min Non-increasing Subseq      | Reverse Sort + Sum Target + Slicing, T: O(n log n), S: O(n)    |
 | 1408 | String Matching in an Array    | Build Sentence + string.Count, T: O(w \* s), S: O(w)           |
 | 1413 | Min Val to Get Pos Step Sum    | Track running sum with accumulate, T: O(n), S: O(1)            |
