@@ -286,6 +286,7 @@ Categories:
 | 2042 | Check if Nums Asc in Sentence  | Split s, convert numeric words to int, check prev, T&S: O(n)   |
 | 2053 | Kth Distinct Str in an Array   | Use a counter to check is distinct, loop in order, T&S: O(n)   |
 | 2057 | Smallest Index With Equal Val  | Enumerate check in for loop and return first, T: O(n), S: O(1) |
+| 2062 | Count Vowel Substrs of a Str   | Track latest positions of all vowels, T: O(n), S: O(1)         |
 | 2068 | Check If Two Str are Almost Eq | Counter arithmetic or use set of chars, T: O(n), S: O(1)       |
 | 2078 | Two Furthest Houses Dif Colors | One of the endpoints must be involved, T: O(n), S: O(1)        |
 | 2085 | Count Common Words With One Oc | Counter for words, iterate either counter, T&S: O(n)           |
